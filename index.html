@@ -61,6 +61,34 @@ button{
 </div>
 
 <script>
+async function loadDefaultFile(){
+
+    try{
+
+        const response = await fetch("sample.txt");
+
+        const text = await response.text();
+
+        lines = text
+            .split(/\r?\n/)
+            .map(v => v.trim())
+            .filter(v => v !== "");
+
+        currentIndex = 0;
+
+        statusEl.textContent =
+            `デフォルトファイル読込完了 (${lines.length}行)`;
+
+    }
+    catch(error){
+
+        statusEl.textContent =
+            "デフォルトファイル読込失敗";
+
+        console.error(error);
+
+    }
+}
 
 let lines = [];
 let currentIndex = 0;
@@ -182,6 +210,8 @@ document
 });
 
 </script>
+
+loadDefaultFile();
 
 </body>
 </html>
