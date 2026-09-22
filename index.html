@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英日読み上げ</title>
+
+<link rel="manifest" href="manifest.json">
+
+<style>
+
+body{
+    font-family:sans-serif;
+    max-width:800px;
+    margin:20px auto;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    cursor:pointer;
+}
+
+#status{
+    margin-top:20px;
+    padding:10px;
+    background:#f0f0f0;
+    border-radius:5px;
+}
+
+#currentLine{
+    margin-top:10px;
+    font-size:18px;
+    color:blue;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>英日読み上げアプリ</h1>
+
+<input type="file" id="fileInput" accept=".txt">
+
+<br><br>
+
+<button id="startBtn">開始</button>
+<button id="stopBtn">停止</button>
+
+<div id="status">
+状態: 待機中
+</div>
+
+<div id="currentLine">
+</div>
+
+<script>
+
+let lines = [];
+let currentIndex = 0;
+let isReading = false;
+
+const statusEl = document.getElementById("status");
+const currentLineEl = document.getElementById("currentLine");
+
+function isJapanese(text){
+
+    return /[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
+
+}
+
+document
+.getElementById("fileInput")
+.addEventListener("change", async(event)=>{
+
+    const file = event.target.files[0];
+
+    if(!file){
+        return;
+    }
+
+    const text = await file.text();
+
+    lines = text
+        .split(/\r?\n/)
+        .map(v => v.trim())
+        .filter(v => v !== "");
+
+    currentIndex = 0;
+
+    statusEl.textContent =
+        `ファイル読込完了 (${lines.length}行)`;
+
+});
+
+function speakNext(){
+
+    if(!isReading){
+        return;
+    }
+
+    if(currentIndex >= lines.length){
+
+        statusEl.textContent =
+            "読み上げ完了";
+
+        isReading = false;
+        return;
+    }
+
+    const text = lines[currentIndex];
+
+    currentLineEl.textContent =
+        `読上げ中: ${text}`;
+
+    const utterance =
+        new SpeechSynthesisUtterance(text);
+
+    if(isJapanese(text)){
+        utterance.lang = "ja-JP";
+    }
+    else{
+        utterance.lang = "en-US";
+    }
+
+    utterance.rate = 1.0;
+
+    utterance.onend = () => {
+
+        currentIndex++;
+
+        setTimeout(() => {
+
+            speakNext();
+
+        }, 500);
+
+    };
+
+    speechSynthesis.speak(utterance);
+}
+
+document
+.getElementById("startBtn")
+.addEventListener("click", ()=>{
+
+    if(lines.length === 0){
+
+        alert("テキストファイルを選択してください。");
+        return;
+    }
+
+    if(isReading){
+        return;
+    }
+
+    isReading = true;
+
+    statusEl.textContent =
+        "読み上げ中";
+
+    speakNext();
+});
+
+document
+.getElementById("stopBtn")
+.addEventListener("click", ()=>{
+
+    isReading = false;
+
+    speechSynthesis.cancel();
+
+    statusEl.textContent =
+        "停止";
+
+});
+
+</script>
+
+</body>
+</html>
