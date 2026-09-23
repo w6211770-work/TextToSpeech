@@ -224,8 +224,8 @@ if(isJapanese(text)) {
 
 }
 
-    utterance.rate = 1.0;
-    utterance.pitch = 1.2;
+    utterance.rate = 0.9;
+    utterance.pitch = 1.0;
     utterance.volume = 1.0;
 
     utterance.onend = () => {
@@ -236,7 +236,7 @@ if(isJapanese(text)) {
 
             speakNext();
 
-        }, 500);
+        }, 200);
 
     };
 
