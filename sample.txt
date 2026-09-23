@@ -1,1399 +1,1229 @@
 
-"abstract 
- 抽象的な、抽象の"
-"accept 
- 受諾する、受け入れる"
-"access 
- アクセスする、利用する、入手する／アクセス"
-"accessibility 
- アクセシビリティー"
-"accessible 
- アクセス可能な、利用可能な"
-"account 
- アカウント、口座"
-"action 
- アクション、操作"
-"activate 
- 有効にする、アクティブにする"
-"active 
- 有効な、アクティブな"
-"activity 
- アクティビティー、活動"
-"add 
- 追加する"
-"additional 
- 追加の"
-"address 
- アドレス、住所"
-"adjust 
- 調整する"
-"administrator 
- 管理者"
-"aggregate 
- 集約する"
-"agree 
- 同意する"
-"algorithm 
- アルゴリズム"
-"alias 
- エイリアス、別名"
-"allocation 
- 割り当て"
-"allow 
- 可能にする、許可する"
-"alternative 
- 代替の"
-"annotation 
- アノテーション、注釈"
-"anonymous 
- 無名の、匿名の"
-"append 
- 追加する"
-"applicable 
- 該当する、適用可能な"
-"application 
- アプリケーション"
-"apply 
- 適用する"
-"archive 
- アーカイブ／アーカイブする"
-"area 
- 領域、エリア"
-"argument 
- 引数、実引数"
-"array 
- 配列"
-"assert 
- アサートする、表明する"
-"asset 
- アセット、資産"
-"assign 
- 割り当てる、（変数に）代入する"
-"assignment 
- 割り当て、（変数への）代入"
-"associate 
- 関連づける"
-"attach 
- 接続する、添付する"
-"attribute 
- 属性"
-"audio 
- 音声"
-"authentication 
- 認証"
-"author 
- 作成者"
-"authorize 
- 権限を与える"
-"automatic 
- 自動の"
-"automatically 
- 自動で、自動的に"
-"availability 
- 可用性"
-"available 
- 利用可能な、入手可能な"
-"avoid 
- 回避する"
-"based 
- ベースの、〜に基づく"
-"batch 
- バッチ"
-"below 
- 下記に"
-"binary 
- バイナリーの、二進法の"
-"bind 
- バインドする"
-"bit 
- ビット"
-"blank 
- 空白の"
-"block 
- ブロック／ブロックする"
-"body 
- 本体、本文"
-"boolean 
- ブールの"
-"boot 
- 起動する／起動"
-"brace 
- 波かっこ"
-"bracket 
- 角かっこ"
-"branch 
- ブランチ、分岐"
-"break 
- 中断する"
-"breakpoint 
- ブレークポイント"
-"browse 
- 閲覧する、参照する"
-"browser 
- ブラウザー"
-"buffer 
- バッファー／バッファー処理する"
-"bug 
- バグ"
-"build 
- 構築する／ビルド"
-"bump 
- バージョンを上げる"
-"bundle 
- バンドル／バンドルする"
-"button 
- ボタン"
-"byte 
- バイト"
-"cache 
- キャッシュ"
-"calculate 
- 計算する"
-"call 
- 呼び出す"
-"callback 
- コールバック"
-"cancel 
- キャンセルする、取り消す"
-"capability 
- 機能"
-"capacity 
- 容量"
-"capture 
- 取り込む、キャプチャーする"
-"caret 
- 文字入力カーソル、カレット"
-"case 
- 場合、ケース、大文字小文字の区別"
-"cast 
- キャストする"
-"certificate 
- 証明書"
-"change 
- 変更する"
-"character 
- 文字"
-"check 
- 確認する、チェックする"
-"checkbox 
- チェックボックス"
-"checkout 
- チェックアウト"
-"child 
- 子"
-"choice 
- 選択"
-"choose 
- 選択する"
-"clarify 
- 明確にする"
-"class 
- クラス"
-"clean 
- きれいな／きれいにする"
-"cleanup 
- クリーンアップ、整理"
-"clear 
- 消去する"
-"click 
- クリックする"
-"client 
- クライアント"
-"clipboard 
- クリップボード"
-"clone 
- 複製する、クローンする"
-"close 
- 閉じる"
-"cloud 
- クラウド"
-"cluster 
- クラスター"
-"code 
- コード"
-"collapse 
- 折りたたむ、非表示にする"
-"collection 
- コレクション、収集"
-"column 
- 列、カラム"
-"command 
- コマンド、命令"
-"comment 
- コメント／コメントする"
-"commit 
- コミットする、（処理などを）確定する"
-"communication 
- 通信、コミュニケーション"
-"compare 
- 比較する"
-"compatibility 
- 互換性"
-"compile 
- コンパイルする"
-"complete 
- 完了する／完全な"
-"completion 
- 補完、完了"
-"component 
- コンポーネント、部品"
-"compress 
- 圧縮する"
-"compute 
- 計算する"
-"condition 
- 条件"
-"conditional 
- 条件つきの"
-"configuration 
- 構成"
-"configure 
- 構成する、設定する"
-"confirm 
- 確定する、確認する"
-"conflict 
- 競合する／競合"
-"connect 
- 接続する"
-"connection 
- 接続"
-"console 
- コンソール"
-"constant 
- 定数／一定の"
-"constraint 
- 制約"
-"construct 
- （コンストラクターで）生成する"
-"constructor 
- コンストラクター"
-"contact 
- 連絡する／連絡先"
-"contain 
- 含む"
-"container 
- コンテナー"
-"content 
- 内容、コンテンツ"
-"context 
- コンテキスト、文脈"
-"continue 
- 続行する"
-"contribute 
- 貢献する"
-"control 
- 制御、コントロール／制御する"
-"convert 
- 変換する"
-"cookie 
- クッキー"
-"coordinate 
- 座標"
-"copy 
- コピーする／コピー"
-"copyright 
- 著作権"
-"core 
- コア／最重要の"
-"correct 
- 正確な／訂正する"
-"correctly 
- 正しく、正常に"
-"count 
- 数える／回数、数"
-"crash 
- クラッシュする、突然停止する／クラッシュ"
-"create 
- 作成する"
-"credential 
- 資格情報、認証情報"
-"current 
- 現在の"
-"cursor 
- カーソル"
-"custom 
- カスタムの、ユーザー設定の"
-"customize 
- カスタマイズする"
-"damage 
- 損害、ダメージ"
-"dashboard 
- ダッシュボード"
-"data 
- データ"
-"database 
- データベース"
-"debug 
- デバッグする／デバッグ"
-"debugger 
- デバッガー"
-"decimal 
- 小数の、十進法の"
-"declaration 
- 宣言"
-"declare 
- 宣言する"
-"decode 
- デコードする"
-"dedicated 
- 専用の"
-"default 
- デフォルト、既定値／デフォルトで〜になる"
-"define 
- 定義する"
-"delay 
- 遅延"
-"delete 
- 削除する"
-"dependency 
- 依存関係"
-"deploy 
- 配備する、デプロイする"
-"deployment 
- 配備、デプロイ"
-"deprecated 
- 非推奨の"
-"deprecation 
- 非推奨"
-"describe 
- 説明する"
-"description 
- 説明"
-"descriptor 
- 記述子"
-"destination 
- 目的地、〜先（移動先など）"
-"destroy 
- 破棄する"
-"detail 
- 詳細"
-"detect 
- 検出する"
-"determine 
- 判別する、決定する"
-"developer 
- 開発者"
-"development 
- 開発"
-"device 
- 機器、デバイス"
-"dialog 
- ダイアログ"
-"digit 
- 数字、桁"
-"directory 
- ディレクトリー"
-"disable 
- 無効にする"
-"disk 
- ディスク"
-"display 
- 表示する／表示、画面"
-"distribute 
- 分散する、配布する"
-"document 
- ドキュメント、文書／（文書で）記録する、詳しく記載する"
-"documentation 
- ドキュメント、資料"
-"domain 
- ドメイン"
-"download 
- ダウンロードする"
-"driver 
- ドライバー"
-"drop-down 
- ドロップダウンの"
-"dump 
- ダンプする"
-"duplicate 
- 重複する／複製する"
-"duration 
- 期間"
-"dynamic 
- 動的な"
-"dynamically 
- 動的に"
-"edit 
- 編集する"
-"editor 
- エディター"
-"element 
- 要素"
-"email 
- メール／メールを送る"
-"emit 
- 発する、生成する"
-"empty 
- 空の"
-"enable 
- 可能にする、有効にする"
-"encode 
- エンコードする、符号化する"
-"encoding 
- エンコーディング、符号化"
-"encounter 
- 遭遇する"
-"encryption 
- 暗号化"
-"endpoint 
- エンドポイント、端点"
-"ensure 
- 確実にする、確かめる"
-"enter 
- 入力する"
-"entity 
- エンティティー、実体"
-"entry 
- エントリー、入力"
-"enumeration 
- 列挙"
-"environment 
- 環境"
-"equal 
- 等しい／〜に等しい"
-"error 
- エラー"
-"escape 
- エスケープする"
-"event 
- イベント、出来事"
-"example 
- 例"
-"except 
- 〜を除く"
-"exception 
- 例外"
-"exclude 
- 除外する"
-"executable 
- 実行可能な／実行可能ファイル"
-"execute 
- 実行する"
-"execution 
- 実行"
-"exist 
- 存在する"
-"existing 
- 既存の"
-"exit 
- 終了する"
-"expand 
- 拡大する、展開する"
-"expected 
- 期待された"
-"export 
- エクスポート／エクスポートする"
-"express 
- 表現する／明示された"
-"expression 
- 表現、式"
-"extend 
- 拡張する"
-"extension 
- 拡張、拡張子"
-"external 
- 外部の"
-"extra 
- 余分な、追加の"
-"extract 
- 抽出する"
-"fail 
- 失敗する"
-"failure 
- 失敗、故障"
-"fallback 
- フォールバック／フォールバックする"
-"false 
- 誤りの、偽の"
-"feature 
- 機能、特徴"
-"fetch 
- 取得する、フェッチする"
-"field 
- フィールド"
-"file 
- ファイル"
-"filter 
- フィルター／絞り込む"
-"final 
- 最終の"
-"find 
- 検索する"
-"finish 
- 終了する、完了する"
-"fire 
- 始動する、発火する"
-"fix 
- 修正する、解決する"
-"flag 
- フラグ"
-"folder 
- フォルダー"
-"follow 
- 従う、フォローする"
-"following 
- 次に述べる／次の項目"
-"font 
- フォント"
-"force 
- 強制する"
-"form 
- フォーム"
-"format 
- フォーマット、書式、形式／初期化する、書式設定する"
-"framework 
- フレームワーク"
-"free 
- 空きの、無料の"
-"function 
- 機能、関数"
-"functionality 
- 機能"
-"general 
- 全般の、一般の"
-"generate 
- 生成する"
-"generation 
- 生成、世代"
-"generic 
- 汎用の、総称の、ジェネリックの"
-"get 
- 獲得する、取得する"
-"global 
- グローバルな、大域の"
-"graphic 
- グラフィック、画像"
-"group 
- グループ"
-"guide 
- ガイド"
-"hack 
- ハッキング、一時回避策／ハックする、（その場しのぎで）作る"
-"handle 
- 処理する／ハンドル"
-"handler 
- ハンドラー"
-"handling 
- 処理"
-"hardware 
- ハードウェア"
-"hash 
- ハッシュ、ハッシュ記号"
-"header 
- ヘッダー"
-"health 
- ヘルス、正常性"
-"height 
- 高さ"
-"hide 
- 隠す、非表示にする"
-"hierarchy 
- 階層"
-"highlight 
- ハイライト／強調表示する"
-"host 
- ホスト"
-"icon 
- アイコン"
-"identifier 
- 識別子"
-"ignore 
- 無視する"
-"image 
- 画像、イメージ"
-"implement 
- 実装する"
-"implementation 
- 実装"
-"import 
- インポート／インポートする"
-"improve 
- 改良する、改善する"
-"include 
- 含む、インクルードする"
-"including 
- 〜を含めて"
-"incompatible 
- 互換性がない"
-"increment 
- 増分、インクリメント／増分させる"
-"indentation 
- インデント"
-"index 
- インデックス、索引、添字"
-"indicate 
- 示す"
-"information 
- 情報"
-"initial 
- 初期の、最初の"
-"initialization 
- 初期化"
-"initialize 
- 初期化する"
-"inline 
- インラインの／インライン化する"
-"inner 
- 内部の、内側の"
-"input 
- 入力／入力する"
-"insert 
- 挿入する"
-"inspect 
- 検査する"
-"inspection 
- 検査"
-"install 
- インストールする"
-"installation 
- インストール"
-"installer 
- インストーラー"
-"instance 
- インスタンス、実例"
-"instruction 
- 指示"
-"integer 
- 整数"
-"interact 
- 対話する"
-"interface 
- インターフェイス"
-"internal 
- 内部の"
-"interval 
- 間隔"
-"introduce 
- 導入する、紹介する"
-"invalid 
- 無効な"
-"invoke 
- 呼び出す"
-"issue 
- 問題点"
-"item 
- 項目"
-"iterate 
- （処理を）反復する、繰り返す"
-"join 
- 結合する"
-"key 
- キー"
-"label 
- ラベル／ラベルを貼る"
-"language 
- 言語"
-"latency 
- 待ち時間"
-"later 
- 後で"
-"latest 
- 最近の"
-"launch 
- 起動する、開始する"
-"layer 
- レイヤー、層"
-"layout 
- レイアウト"
-"length 
- 長さ"
-"level 
- レベル、水準"
-"library 
- ライブラリー"
-"license 
- ライセンス／ライセンス供与する"
-"limit 
- 制限する／制限"
-"line 
- 行、線"
-"link 
- リンク／リンクする"
-"list 
- リスト／一覧表示する"
-"listener 
- リスナー"
-"load 
- 読み込む"
-"local 
- ローカルの、局所の"
-"locale 
- ロケール"
-"location 
- 位置、場所"
-"lock 
- ロックする／ロック"
-"log 
- ログ／ログを取る"
-"logic 
- ロジック、論理"
-"login 
- ログイン"
-"lookup 
- 検索、探索、ルックアップ"
-"loop 
- ループ"
-"make 
- 作成する"
-"manage 
- 管理する"
-"manager 
- マネージャー"
-"manual 
- 手動の／マニュアル"
-"manually 
- 手動で"
-"map 
- 地図／対応づける、マッピングする"
-"master 
- マスター"
-"match 
- 一致する"
-"matching 
- 一致する、マッチする"
-"maximum 
- 最大の"
-"media 
- メディア"
-"memory 
- メモリー"
-"menu 
- メニュー"
-"merge 
- マージする、統合する"
-"message 
- メッセージ"
-"metadata 
- メタデータ"
-"method 
- メソッド、方法"
-"migration 
- 移行"
-"millisecond 
- ミリ秒"
-"minimum 
- 最小の"
-"minor 
- マイナーな、小さな"
-"missing 
- 見つからない、欠落している"
-"mock 
- モックの、模造の"
-"mode 
- モード"
-"model 
- モデル、型"
-"modification 
- 修正、変更"
-"modifier 
- 修飾子"
-"modify 
- 修正する、変更する"
-"module 
- モジュール"
-"monitor 
- 監視する"
-"move 
- 移動する"
-"multiple 
- 複数の"
-"name 
- 名前"
-"namespace 
- 名前空間"
-"native 
- ネイティブの"
-"navigate 
- 移動する"
-"navigation 
- ナビゲーション、移動"
-"nested 
- 入れ子の、ネストされた"
-"network 
- ネットワーク"
-"next 
- 次の"
-"node 
- ノード"
-"none 
- 一つもなし"
-"normal 
- 標準の"
-"normalize 
- 標準化する、正規化する"
-"note 
- 注意／〜に注意する"
-"notice 
- 通知、注意"
-"notification 
- 通知"
-"notify 
- 通知する"
-"null 
- 空の、nullの／null"
-"number 
- 数"
-"numeric 
- 数値の"
-"object 
- オブジェクト、物体、対象"
-"obtain 
- 取得する"
-"occur 
- 発生する"
-"occurrence 
- 出現、発生"
-"offset 
- オフセット"
-"open 
- 開く／開いた"
-"operation 
- 操作、処理"
-"optimize 
- 最適化する"
-"option 
- オプション"
-"optional 
- 任意の、オプションの"
-"otherwise 
- そうでなければ、さもないと"
-"output 
- 出力／出力する"
-"override 
- オーバーライドする、優先する"
-"overview 
- 概要"
-"overwrite 
- 上書きする"
-"owner 
- 所有者、オーナー"
-"package 
- パッケージ"
-"padding 
- パディング"
-"pane 
- ペイン、ウィンドウ"
-"parameter 
- パラメーター、仮引数"
-"parent 
- 親"
-"parenthesis 
- 丸かっこ"
-"parse 
- パースする、解析する"
-"pass 
- 渡す"
-"password 
- パスワード"
-"patch 
- パッチ、修正プログラム"
-"path 
- パス"
-"payload 
- ペイロード"
-"perform 
- 実行する"
-"performance 
- 性能、パフォーマンス"
-"permission 
- 許可、パーミッション"
-"permit 
- 許可する"
-"persistence 
- 永続化"
-"physical 
- 物理的な"
-"placeholder 
- プレースホルダー"
-"play 
- 再生する"
-"plugin 
- プラグイン"
-"pool 
- プール"
-"populate 
- 自動入力する"
-"popup 
- ポップアップ"
-"port 
- ポート"
-"position 
- 位置"
-"post 
- 書き込む／投稿"
-"preference 
- プリファレンス、ユーザー設定"
-"preferred 
- 優先の"
-"prefix 
- 接頭辞、プレフィックス"
-"prepare 
- 準備する"
-"press 
- 押す"
-"preview 
- プレビュー／プレビューする"
-"previous 
- 前の"
-"print 
- 印刷する、出力する"
-"priority 
- 優先順位、優先度"
-"private 
- プライベートな、非公開の"
-"problem 
- 問題"
-"process 
- プロセス、処理／処理する"
-"product 
- 製品、プロダクト"
-"profile 
- プロファイル、プロフィール"
-"progress 
- 進行状況"
-"properly 
- 適切に、正常に"
-"property 
- プロパティー"
-"protect 
- 保護する"
-"protocol 
- プロトコル"
-"prototype 
- プロトタイプ"
-"provide 
- 提供する"
-"provider 
- プロバイダー"
-"provision 
- プロビジョニング／供給する"
-"proxy 
- プロキシ"
-"public 
- 公開の"
-"publish 
- 公開する"
-"pull 
- プルする、取得する／プル"
-"push 
- 押す、プッシュする"
-"query 
- クエリー、問い合わせ"
-"queue 
- キュー、待ち行列"
-"range 
- 範囲"
-"raw 
- 生の"
-"read 
- 読み取る"
-"real-time 
- リアルタイムの"
-"receive 
- 受信する"
-"recommend 
- 推奨する"
-"record 
- 記録する／記録、レコード"
-"redirect 
- リダイレクトする、転送する"
-"redundant 
- 冗長な"
-"refactor 
- リファクタリングする、リファクターする"
-"refer 
- 参照する"
-"reference 
- 参照、リファレンス／参照する"
-"refresh 
- 更新する"
-"register 
- 登録する"
-"registration 
- 登録"
-"registry 
- レジストリー"
-"release 
- リリースする、公開する"
-"reload 
- 再読み込みする、リロードする"
-"remote 
- 遠隔の、リモートの"
-"removal 
- 削除、除去"
-"remove 
- 削除する"
-"rename 
- 名前を変更する"
-"render 
- 描画する、レンダリングする"
-"replace 
- 置換する"
-"report 
- 報告する／レポート"
-"repository 
- リポジトリー"
-"represent 
- 表す"
-"representation 
- 表現"
-"request 
- 要求、リクエスト／要求する"
-"require 
- 必要とする"
-"reserve 
- 予約する、確保する"
-"reset 
- リセットする"
-"resize 
- サイズ変更する"
-"resolution 
- 解像度、精度、解決"
-"resolve 
- 解決する"
-"resource 
- リソース、資源"
-"respond 
- 応答する、返信する"
-"response 
- 応答"
-"restart 
- 再起動する"
-"restore 
- 復元する"
-"restriction 
- 制限"
-"result 
- 結果"
-"retrieve 
- 取得する"
-"return 
- 戻す、返す"
-"revert 
- （以前の状態に）戻る、戻す"
-"revision 
- 改訂、リビジョン"
-"right-click 
- 右クリックする"
-"role 
- 役割、ロール"
-"root 
- ルート"
-"route 
- 経路、ルート"
-"row 
- 行"
-"rule 
- ルール、規則"
-"run 
- 実行する"
-"runtime 
- 実行時、ランタイム"
-"sanitize 
- サニタイズする"
-"save 
- 保存する"
-"scale 
- （大きさを）変える"
-"scan 
- スキャンする、走査する"
-"schedule 
- 予定、スケジュール／予定する"
-"schema 
- スキーマ"
-"scope 
- スコープ、範囲"
-"screen 
- 画面"
-"script 
- スクリプト"
-"scroll 
- スクロールする"
-"search 
- 検索する／検索"
-"section 
- セクション、部分"
-"secure 
- セキュアな、安全な"
-"security 
- セキュリティー"
-"see 
- 見る、参照する"
-"select 
- 選択する"
-"send 
- 送信する"
-"separator 
- セパレーター、区切り"
-"sequence 
- シーケンス"
-"serialize 
- シリアル化する"
-"server 
- サーバー"
-"service 
- サービス"
-"session 
- セッション"
-"set 
- 設定する"
-"setting 
- 設定"
-"setup 
- 設定、構成、セットアップ"
-"shape 
- 形状"
-"share 
- 共有する"
-"shortcut 
- ショートカット"
-"show 
- 表示する"
-"shutdown 
- シャットダウン"
-"sign 
- 記号／サインイン(sign in)する、サインアウト（sign out）する"
-"signature 
- 署名、シグネチャー"
-"simplify 
- 簡素化する"
-"size 
- 大きさ"
-"skip 
- スキップする、とばす"
-"snapshot 
- スナップショット"
-"socket 
- ソケット"
-"software 
- ソフトウェア"
-"sort 
- 並び替える、ソートする"
-"source 
- ソース、〜元（送信元など）"
-"space 
- スペース、空白"
-"specific 
- 特定の"
-"specification 
- 仕様"
-"specify 
- 指定する"
-"split 
- 分割する"
-"stack 
- スタック"
-"standalone 
- スタンドアロンの"
-"start 
- 開始する"
-"startup 
- 起動、スタートアップ"
-"state 
- 状態"
-"statement 
- ステートメント、文"
-"static 
- 静的な"
-"status 
- 状態、ステータス"
-"step 
- ステップ、手順"
-"stop 
- 停止する"
-"storage 
- ストレージ"
-"store 
- 保存する、格納する"
-"stream 
- ストリーム"
-"string 
- 文字列"
-"style 
- スタイル"
-"submit 
- 提出する、送信する"
-"successful 
- 成功した"
-"successfully 
- 正常に"
-"suffix 
- 接尾辞、サフィックス"
-"supply 
- 提供する、供給する"
-"support 
- サポートする、支援する／サポート"
-"suppress 
- 表示しない"
-"switch 
- 切り替える／スイッチ"
-"synchronize 
- 同期する"
-"syntax 
- 構文、シンタックス"
-"system 
- システム"
-"tab 
- タブ"
-"table 
- 表、テーブル"
-"tag 
- タグ"
-"target 
- ターゲット、対象、〜先（移動先など）"
-"task 
- タスク"
-"template 
- テンプレート"
-"temporary 
- 一時的な"
-"terminate 
- 終了する"
-"termination 
- 終了"
-"terms 
- 利用条件"
-"test 
- テスト／テストする"
-"third 
- party サード・パーティー、第三者"
-"thread 
- スレッド"
-"throw 
- スローする、投げる"
-"timeout 
- タイムアウト"
-"timestamp 
- タイムスタンプ"
-"todo 
- TODO、するべきこと"
-"toggle 
- 切り替える"
-"token 
- トークン"
-"touch 
- タッチ／タッチする"
-"traffic 
- トラフィック、通信（量）"
-"transaction 
- トランザクション"
-"transfer 
- 転送する"
-"transform 
- 変換する、変形する"
-"transition 
- 遷移"
-"translate 
- 変換する、翻訳する"
-"tree 
- 木、ツリー"
-"trigger 
- トリガーする"
-"true 
- 正しい、真の"
-"tweak 
- 微調整する"
-"type 
- 型、種類／（キーボードで）入力する"
-"typo 
- 入力ミス、タイポ"
-"unable 
- 不可能な"
-"unauthorized 
- 権限のない"
-"unavailable 
- 利用できない"
-"undefined 
- 未定義の"
-"undo 
- 元に戻す"
-"unexpected 
- 予期しない"
-"uninstall 
- アンインストールする"
-"unique 
- 一意の、固有の"
-"unit 
- 単位、ユニット"
-"unknown 
- 不明の"
-"unnecessary 
- 不要な"
-"unresolved 
- 未解決の"
-"unsupported 
- 非対応の、サポートされない"
-"unused 
- 未使用の"
-"update 
- 更新する／更新"
-"upgrade 
- アップグレードする"
-"upload 
- アップロードする／アップロード"
-"usage 
- 利用、使用"
-"use 
- 使う／使用"
-"useful 
- 便利な"
-"user 
- ユーザー"
-"username 
- ユーザー名"
-"valid 
- 有効な"
-"validate 
- （妥当性を）確認する、検証する"
-"validation 
- 検証"
-"value 
- 値"
-"variable 
- 変数"
-"verbose 
- 詳細な"
-"verify 
- （正しいことを）確認する、検証する"
-"version 
- バージョン、版"
-"view 
- 表示する／表示、ビュー"
-"virtual 
- 仮想の"
-"visibility 
- 可視性、可視範囲"
-"visible 
- 可視の、表示できる"
-"visit 
- 訪問する、アクセスする"
-"wait 
- 待機する"
-"warn 
- 警告する"
-"warning 
- 警告"
-"website 
- ウェブサイト"
-"whitespace 
- 空白、スペース"
-"widget 
- ウィジェット"
-"width 
- 幅"
-"window 
- ウィンドウ"
-"wizard 
- ウィザード"
-"wrap 
- ラップする、（テキストを）折り返す"
-"wrapper 
- ラッパー"
-"write 
- 書き込む"
-"you 
- あなた、ユーザー"
-"your 
- あなたの、ユーザーの"
-"zip 
- （ファイルを）圧縮する"
+abstract 
+ 抽象的な、抽象の
+accept 
+ 受諾する、受け入れる
+access 
+ アクセスする、利用する、入手する／アクセス
+accessibility 
+ アクセシビリティー、利用しやすさ
+accessible 
+ アクセス可能な、利用可能な
+account 
+ アカウント、口座
+action 
+ アクション、操作
+activate 
+ 有効にする、アクティブにする
+active 
+ 有効な、アクティブな
+activity 
+ アクティビティー、活動
+additional 
+ 追加の
+adjust 
+ 調整する
+administrator 
+ 管理者
+aggregate 
+ 集約する
+agree 
+ 同意する
+algorithm 
+ アルゴリズム
+alias 
+ エイリアス、別名
+allocation 
+ 割り当て
+allow 
+ 可能にする、許可する
+alternative 
+ 代替の
+annotation 
+ アノテーション、注釈
+anonymous 
+ 無名の、匿名の
+append 
+ 追加する
+applicable 
+ 該当する、適用可能な
+apply 
+ 適用する
+archive 
+ アーカイブ／アーカイブする
+area 
+ 領域、エリア
+argument 
+ 引数、実引数
+assert 
+ アサートする、表明する
+asset 
+ アセット、資産
+assign 
+ 割り当てる、（変数に）代入する
+assignment 
+ 割り当て、（変数への）代入
+associate 
+ 関連づける
+attach 
+ 接続する、添付する
+attribute 
+ 属性
+audio 
+ 音声
+authentication 
+ 認証
+author 
+ 作成者
+authorize 
+ 権限を与える
+automatic 
+ 自動の
+automatically 
+ 自動で、自動的に
+availability 
+ 可用性
+available 
+ 利用可能な、入手可能な
+avoid 
+ 回避する
+based 
+ ベースの、〜に基づく
+batch 
+ バッチ
+binary 
+ バイナリーの、二進法の
+bind 
+ バインドする、結び付ける、関連付ける
+bit 
+ ビット
+block 
+ ブロック／ブロックする、一連の処理をまとめた部分
+body 
+ 本体、本文
+boolean 
+ ブールの
+boot 
+ 起動する／起動
+brace 
+ 波かっこ
+bracket 
+ 角かっこ
+branch 
+ ブランチ、分岐
+break 
+ 中断する
+breakpoint 
+ ブレークポイント
+browse 
+ 閲覧する、参照する
+browser 
+ ブラウザー
+buffer 
+ バッファー／バッファー処理する、データを一時的にためておく場所
+build 
+ 構築する／ビルド
+bump 
+ バージョンを上げる
+bundle 
+ バンドル／バンドルする、複数のものをまとめたもの
+cache 
+ キャッシュ
+calculate 
+ 計算する
+call 
+ 呼び出す
+callback 
+ コールバック、後で呼び出される処理
+capability 
+ 機能
+capacity 
+ 容量
+capture 
+ 取り込む、キャプチャーする
+caret 
+ 文字入力カーソル、カレット
+case 
+ 場合、ケース、大文字小文字の区別
+cast 
+ キャストする、型変換する
+certificate 
+ 証明書
+change 
+ 変更する
+character 
+ 文字
+check 
+ 確認する、チェックする
+checkout 
+ チェックアウト、確認する、会計する
+choice 
+ 選択
+choose 
+ 選択する
+clarify 
+ 明確にする
+clean 
+ きれいな／きれいにする
+cleanup 
+ クリーンアップ、整理
+clear 
+ 消去する
+client 
+ クライアント
+clipboard 
+ クリップボード
+clone 
+ 複製する、クローンする
+cloud 
+ クラウド
+cluster 
+ クラスター、複数のものがまとまって1つのように動く仕組み
+collapse 
+ 折りたたむ、非表示にする
+command 
+ コマンド、命令
+commit 
+ コミットする、（処理などを）確定する
+communication 
+ 通信、コミュニケーション
+compare 
+ 比較する
+compatibility 
+ 互換性
+compile 
+ コンパイルする
+complete 
+ 完了する／完全な
+completion 
+ 補完、完了
+component 
+ コンポーネント、部品
+compress 
+ 圧縮する
+compute 
+ 計算する
+condition 
+ 条件
+conditional 
+ 条件つきの
+configuration 
+ 構成
+configure 
+ 構成する、設定する
+confirm 
+ 確定する、確認する
+conflict 
+ 競合する／競合
+connect 
+ 接続する
+connection 
+ 接続
+console 
+ コンソール、管理画面
+constant 
+ 定数／一定の
+constraint 
+ 制約
+construct 
+ （コンストラクターで）生成する
+constructor 
+ コンストラクター
+contact 
+ 連絡する／連絡先
+contain 
+ 含む
+container 
+ コンテナー
+content 
+ 内容、コンテンツ
+context 
+ コンテキスト、文脈
+continue 
+ 続行する
+contribute 
+ 貢献する
+control 
+ 制御、コントロール／制御する
+convert 
+ 変換する
+coordinate 
+ 座標
+copyright 
+ 著作権
+core 
+ コア／最重要の
+correct 
+ 正確な／訂正する
+correctly 
+ 正しく、正常に
+crash 
+ クラッシュする、突然停止する／クラッシュ
+create 
+ 作成する
+credential 
+ 資格情報、認証情報
+current 
+ 現在の
+cursor 
+ カーソル
+custom 
+ カスタムの、ユーザー設定の
+customize 
+ カスタマイズする
+damage 
+ 損害、ダメージ
+dashboard 
+ ダッシュボード
+debugger 
+ デバッガー
+decimal 
+ 小数の、十進法の
+declaration 
+ 宣言
+declare 
+ 宣言する
+decode 
+ デコードする、エンコードされたデータを元の形に戻す
+dedicated 
+ 専用の
+default 
+ デフォルト、既定値／デフォルトで〜になる
+delay 
+ 遅延
+dependency 
+ 依存関係
+deploy 
+ 配備する、デプロイする
+deployment 
+ 配備、デプロイ
+deprecated 
+ 非推奨の
+deprecation 
+ 非推奨
+describe 
+ 説明する
+description 
+ 説明
+descriptor 
+ 記述子
+destination 
+ 目的地、〜先（移動先など）
+destroy 
+ 破棄する
+detail 
+ 詳細
+detect 
+ 検出する
+determine 
+ 判別する、決定する
+developer 
+ 開発者
+device 
+ 機器、デバイス
+digit 
+ 数字、桁
+directory 
+ ディレクトリー
+disable 
+ 無効にする
+display 
+ 表示する／表示、画面
+distribute 
+ 分散する、配布する
+dump 
+ ダンプする
+duplicate 
+ 重複する／複製する
+duration 
+ 期間
+dynamic 
+ 動的な
+dynamically 
+ 動的に
+edit 
+ 編集する
+editor 
+ エディター
+emit 
+ 発する、生成する
+empty 
+ 空の
+enable 
+ 可能にする、有効にする
+encode 
+ エンコードする、符号化する
+encoding 
+ エンコーディング、符号化
+encounter 
+ 遭遇する
+encryption 
+ 暗号化
+endpoint 
+ エンドポイント、端点
+ensure 
+ 確実にする、確かめる
+enter 
+ 入力する
+entity 
+ エンティティー、実体
+entry 
+ エントリー、入力
+enumeration 
+ 列挙
+environment 
+ 環境
+escape 
+ エスケープする
+example 
+ 例
+except 
+ 〜を除く
+exception 
+ 例外
+exclude 
+ 除外する
+executable 
+ 実行可能な／実行可能ファイル
+execute 
+ 実行する
+execution 
+ 実行
+exist 
+ 存在する
+existing 
+ 既存の
+exit 
+ 終了する
+expand 
+ 拡大する、展開する
+expected 
+ 期待された
+export 
+ エクスポート／エクスポートする
+express 
+ 表現する／明示された
+expression 
+ 表現、式
+extend 
+ 拡張する
+extension 
+ 拡張、拡張子
+external 
+ 外部の
+extra 
+ 余分な、追加の
+extract 
+ 抽出する
+fail 
+ 失敗する
+failure 
+ 失敗、故障
+fallback 
+ フォールバック／フォールバックする、予備手段
+feature 
+ 機能、特徴
+fetch 
+ 取得する、フェッチする
+field 
+ フィールド
+final 
+ 最終の
+fire 
+ 始動する、発火する
+fix 
+ 修正する、解決する
+flag 
+ フラグ
+follow 
+ 従う、フォローする
+following 
+ 次に述べる／次の項目
+font 
+ フォント
+force 
+ 強制する
+form 
+ フォーム
+format 
+ フォーマット、書式、形式／初期化する、書式設定する
+framework 
+ フレームワーク
+free 
+ 空きの、無料の
+functionality 
+ 機能
+general 
+ 全般の、一般の
+generate 
+ 生成する
+generation 
+ 生成、世代
+generic 
+ 汎用の、総称の、ジェネリックの
+get 
+ 獲得する、取得する
+global 
+ グローバルな、大域の
+graphic 
+ グラフィック、画像
+group 
+ グループ
+guide 
+ ガイド
+hack 
+ ハッキング、一時回避策／ハックする、（その場しのぎで）作る
+handle 
+ 処理する／ハンドル
+handler 
+ ハンドラー
+handling 
+ 処理
+hash 
+ ハッシュ、ハッシュ記号
+health 
+ ヘルス、正常性
+hide 
+ 隠す、非表示にする
+hierarchy 
+ 階層
+highlight 
+ ハイライト／強調表示する
+host 
+ ホスト
+icon 
+ アイコン
+identifier 
+ 識別子
+ignore 
+ 無視する
+implement 
+ 実装する
+implementation 
+ 実装
+improve 
+ 改良する、改善する
+include 
+ 含む、インクルードする
+including 
+ 〜を含めて
+incompatible 
+ 互換性がない
+increment 
+ 増分、インクリメント／増分させる
+indentation 
+ インデント
+index 
+ インデックス、索引、添字
+indicate 
+ 示す
+initial 
+ 初期の、最初の
+initialization 
+ 初期化
+initialize 
+ 初期化する
+inline 
+ インラインの／インライン化する
+inner 
+ 内部の、内側の
+inspect 
+ 検査する
+inspection 
+ 検査
+install 
+ インストールする
+installation 
+ インストール
+installer 
+ インストーラー
+instance 
+ インスタンス、実例
+instruction 
+ 指示
+integer 
+ 整数
+interact 
+ 対話する
+interface 
+ インターフェイス
+internal 
+ 内部の
+interval 
+ 間隔
+introduce 
+ 導入する、紹介する
+invalid 
+ 無効な
+invoke 
+ 呼び出す
+issue 
+ 問題点
+item 
+ 項目
+iterate 
+ （処理を）反復する、繰り返す
+join 
+ 結合する
+key 
+ キー
+label 
+ ラベル／ラベルを貼る
+language 
+ 言語
+latency 
+ 待ち時間
+later 
+ 後で
+latest 
+ 最近の
+launch 
+ 起動する、開始する
+layer 
+ レイヤー、層
+layout 
+ レイアウト、配置
+level 
+ レベル、水準
+license 
+ ライセンス／ライセンス供与する
+limit 
+ 制限する／制限
+line 
+ 行、線
+link 
+ リンク／リンクする
+list 
+ リスト／一覧表示する
+listener 
+ リスナー
+load 
+ 読み込む
+local 
+ ローカルの、局所の
+locale 
+ ロケール
+location 
+ 位置、場所
+lock 
+ ロックする／ロック
+log 
+ ログ／ログを取る
+logic 
+ ロジック、論理
+login 
+ ログイン
+lookup 
+ 検索、探索、ルックアップ
+loop 
+ ループ
+make 
+ 作成する
+manage 
+ 管理する
+manager 
+ マネージャー
+manual 
+ 手動の／マニュアル
+manually 
+ 手動で
+map 
+ 地図／対応づける、マッピングする
+master 
+ マスター
+match 
+ 一致する
+matching 
+ 一致する、マッチする
+maximum 
+ 最大の
+media 
+ メディア
+memory 
+ メモリー
+merge 
+ マージする、統合する
+message 
+ メッセージ
+metadata 
+ メタデータ
+method 
+ メソッド、方法
+migration 
+ 移行
+millisecond 
+ ミリ秒
+minimum 
+ 最小の
+minor 
+ マイナーな、小さな
+missing 
+ 見つからない、欠落している
+mock 
+ モックの、模造の
+mode 
+ モード
+model 
+ モデル、型
+modification 
+ 修正、変更
+modifier 
+ 修飾子
+modify 
+ 修正する、変更する
+module 
+ モジュール
+monitor 
+ 監視する
+move 
+ 移動する
+multiple 
+ 複数の
+namespace 
+ 名前空間
+native 
+ ネイティブの
+navigate 
+ 移動する
+navigation 
+ ナビゲーション、移動
+nested 
+ 入れ子の、ネストされた
+network 
+ ネットワーク
+next 
+ 次の
+node 
+ ノード
+none 
+ 一つもなし
+normal 
+ 標準の
+normalize 
+ 標準化する、正規化する
+note 
+ 注意／〜に注意する
+notice 
+ 通知、注意
+notification 
+ 通知
+notify 
+ 通知する
+null 
+ 空の、nullの／null
+numeric 
+ 数値の
+object 
+ オブジェクト、物体、対象
+obtain 
+ 取得する
+occur 
+ 発生する
+occurrence 
+ 出現、発生
+offset 
+ オフセット
+operation 
+ 操作、処理
+optimize 
+ 最適化する
+option 
+ オプション
+optional 
+ 任意の、オプションの
+otherwise 
+ そうでなければ、さもないと
+override 
+ オーバーライドする、優先する
+overview 
+ 概要
+overwrite 
+ 上書きする
+owner 
+ 所有者、オーナー
+package 
+ パッケージ
+padding 
+ パディング、内側の余白
+pane 
+ ペイン、ウィンドウ、表示領域
+parameter 
+ パラメーター、仮引数
+parenthesis 
+ 丸かっこ
+parse 
+ パースする、解析する
+pass 
+ 渡す
+password 
+ パスワード
+patch 
+ パッチ、修正プログラム
+path 
+ パス
+payload 
+ ペイロード
+perform 
+ 実行する
+performance 
+ 性能、パフォーマンス
+permission 
+ 許可、パーミッション
+permit 
+ 許可する
+persistence 
+ 永続化
+physical 
+ 物理的な
+placeholder 
+ プレースホルダー
+play 
+ 再生する
+plugin 
+ プラグイン
+pool 
+ プール
+populate 
+ 自動入力する
+popup 
+ ポップアップ
+port 
+ ポート
+position 
+ 位置
+post 
+ 書き込む／投稿
+preference 
+ プリファレンス、ユーザー設定
+preferred 
+ 優先の
+prefix 
+ 接頭辞、プレフィックス
+prepare 
+ 準備する
+press 
+ 押す
+preview 
+ プレビュー／プレビューする
+previous 
+ 前の
+print 
+ 印刷する、出力する
+priority 
+ 優先順位、優先度
+private 
+ プライベートな、非公開の
+process 
+ プロセス、処理／処理する
+product 
+ 製品、プロダクト
+profile 
+ プロファイル、プロフィール
+progress 
+ 進行状況
+properly 
+ 適切に、正常に
+property 
+ プロパティー
+protect 
+ 保護する
+protocol 
+ プロトコル
+prototype 
+ プロトタイプ
+provide 
+ 提供する
+provider 
+ プロバイダー
+provision 
+ プロビジョニング／供給する
+proxy 
+ プロキシ
+public 
+ 公開の
+publish 
+ 公開する
+pull 
+ プルする、取得する／プル
+push 
+ 押す、プッシュする
+query 
+ クエリー、問い合わせ
+queue 
+ キュー、待ち行列
+range 
+ 範囲
+raw 
+ 生の
+read 
+ 読み取る
+real-time 
+ リアルタイムの
+receive 
+ 受信する
+recommend 
+ 推奨する
+record 
+ 記録する／記録、レコード
+redirect 
+ リダイレクトする、転送する
+redundant 
+ 冗長な
+refactor 
+ リファクタリングする、リファクターする
+refer 
+ 参照する
+reference 
+ 参照、リファレンス／参照する
+refresh 
+ 更新する
+register 
+ 登録する
+registration 
+ 登録
+registry 
+ レジストリー
+release 
+ リリースする、公開する
+reload 
+ 再読み込みする、リロードする
+remote 
+ 遠隔の、リモートの
+removal 
+ 削除、除去
+remove 
+ 削除する
+rename 
+ 名前を変更する
+render 
+ 描画する、レンダリングする
+replace 
+ 置換する
+report 
+ 報告する／レポート
+repository 
+ リポジトリー
+represent 
+ 表す
+representation 
+ 表現
+request 
+ 要求、リクエスト／要求する
+require 
+ 必要とする
+reserve 
+ 予約する、確保する
+reset 
+ リセットする
+resize 
+ サイズ変更する
+resolution 
+ 解像度、精度、解決
+resolve 
+ 解決する
+resource 
+ リソース、資源
+respond 
+ 応答する、返信する
+response 
+ 応答
+restart 
+ 再起動する
+restore 
+ 復元する
+restriction 
+ 制限
+retrieve 
+ 取得する
+return 
+ 戻す、返す
+revert 
+ （以前の状態に）戻る、戻す
+revision 
+ 改訂、リビジョン
+right-click 
+ 右クリックする
+role 
+ 役割、ロール
+root 
+ ルート
+route 
+ 経路、ルート
+row 
+ 行
+rule 
+ ルール、規則
+runtime 
+ 実行時、ランタイム
+sanitize 
+ サニタイズする、無害化する、安全化する
+scale 
+ （大きさを）変える
+scan 
+ スキャンする、走査する
+schedule 
+ 予定、スケジュール／予定する
+schema 
+ スキーマ、構造定義、設計図
+scope 
+ スコープ、範囲
+screen 
+ 画面
+script 
+ スクリプト
+scroll 
+ スクロールする
+search 
+ 検索する／検索
+section 
+ セクション、部分
+secure 
+ セキュアな、安全な
+security 
+ セキュリティー
+see 
+ 見る、参照する
+select 
+ 選択する
+send 
+ 送信する
+separator 
+ セパレーター、区切り
+sequence 
+ シーケンス、順序
+serialize 
+ シリアル化する
+server 
+ サーバー
+service 
+ サービス
+session 
+ セッション
+set 
+ 設定する
+setting 
+ 設定
+setup 
+ 設定、構成、セットアップ
+shape 
+ 形状
+share 
+ 共有する
+shortcut 
+ ショートカット
+sign 
+ 記号／サインイン(sign in)する、サインアウト（sign out）する
+signature 
+ 署名、シグネチャー
+simplify 
+ 簡素化する
+skip 
+ スキップする、とばす
+snapshot 
+ スナップショット
+socket 
+ ソケット、通信の窓口
+source 
+ ソース、〜元（送信元など）
+space 
+ スペース、空白
+specific 
+ 特定の
+specification 
+ 仕様
+specify 
+ 指定する
+split 
+ 分割する
+stack 
+ スタック
+standalone 
+ スタンドアロンの
+startup 
+ 起動、スタートアップ
+state 
+ 状態
+statement 
+ ステートメント、文
+static 
+ 静的な
+status 
+ 状態、ステータス
+step 
+ ステップ、手順
+storage 
+ ストレージ
+store 
+ 保存する、格納する
+stream 
+ ストリーム
+style 
+ スタイル
+submit 
+ 提出する、送信する
+successful 
+ 成功した
+successfully 
+ 正常に
+suffix 
+ 接尾辞、サフィックス
+supply 
+ 提供する、供給する
+support 
+ サポートする、支援する／サポート
+suppress 
+ 表示しない
+switch 
+ 切り替える／スイッチ
+synchronize 
+ 同期する
+syntax 
+ 構文、シンタックス
+tag 
+ タグ
+target 
+ ターゲット、対象、〜先（移動先など）
+task 
+ タスク
+template 
+ テンプレート
+temporary 
+ 一時的な
+terminate 
+ 終了する
+termination 
+ 終了
+terms 
+ 利用条件
+test 
+ テスト／テストする
+third 
+ party サード・パーティー、第三者
+thread 
+ スレッド
+throw 
+ スローする、投げる
+timeout 
+ タイムアウト
+timestamp 
+ タイムスタンプ
+todo 
+ TODO、するべきこと
+toggle 
+ 切り替える
+token 
+ トークン、認証情報、最小単位
+touch 
+ タッチ／タッチする
+traffic 
+ トラフィック、通信（量）
+transaction 
+ トランザクション
+transfer 
+ 転送する
+transform 
+ 変換する、変形する
+transition 
+ 遷移
+translate 
+ 変換する、翻訳する
+tree 
+ 木、ツリー
+trigger 
+ トリガーする
+true 
+ 正しい、真の
+tweak 
+ 微調整する
+type 
+ 型、種類／（キーボードで）入力する
+typo 
+ 入力ミス、タイポ
+unable 
+ 不可能な
+unauthorized 
+ 権限のない
+unavailable 
+ 利用できない
+undefined 
+ 未定義の
+undo 
+ 元に戻す
+unexpected 
+ 予期しない
+uninstall 
+ アンインストールする
+unique 
+ 一意の、固有の
+unit 
+ 単位、ユニット
+unknown 
+ 不明の
+unnecessary 
+ 不要な
+unresolved 
+ 未解決の
+unsupported 
+ 非対応の、サポートされない
+unused 
+ 未使用の
+update 
+ 更新する／更新
+upgrade 
+ アップグレードする
+upload 
+ アップロードする／アップロード
+usage 
+ 利用、使用
+use 
+ 使う／使用
+useful 
+ 便利な
+user 
+ ユーザー
+username 
+ ユーザー名
+valid 
+ 有効な
+validate 
+ （妥当性を）確認する、検証する
+validation 
+ 検証
+value 
+ 値
+variable 
+ 変数
+verbose 
+ 詳細な
+verify 
+ （正しいことを）確認する、検証する
+version 
+ バージョン、版
+view 
+ 表示する／表示、ビュー
+virtual 
+ 仮想の
+visibility 
+ 可視性、可視範囲
+visible 
+ 可視の、表示できる
+visit 
+ 訪問する、アクセスする
+wait 
+ 待機する
+warn 
+ 警告する
+warning 
+ 警告
+whitespace 
+ 空白、スペース
+widget 
+ ウィジェット
+wizard 
+ ウィザード
+wrap 
+ ラップする、（テキストを）折り返す
+wrapper 
+ ラッパー
+zip 
+ （ファイルを）圧縮する
