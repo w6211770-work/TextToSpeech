@@ -14,6 +14,9 @@ body{
     max-width:800px;
     margin:20px auto;
     padding:20px;
+
+    background-color:#1e1e1e;
+    color:#ffffff;
 }
 
 h1{
@@ -24,19 +27,28 @@ button{
     padding:10px 20px;
     margin:5px;
     cursor:pointer;
+
+    background-color:#333333;
+    color:#ffffff;
+    border:1px solid #555555;
+}
+
+button:hover{
+    background-color:#444444;
 }
 
 #status{
     margin-top:20px;
     padding:10px;
-    background:#f0f0f0;
+    background:#2d2d2d;
     border-radius:5px;
+    color:#ffffff;
 }
 
 #currentLine{
     margin-top:10px;
     font-size:18px;
-    color:blue;
+    color:#66b3ff;
 }
 
 </style>
@@ -97,6 +109,50 @@ let isReading = false;
 const statusEl = document.getElementById("status");
 const currentLineEl = document.getElementById("currentLine");
 
+let englishVoice = null;
+let japaneseVoice = null;
+
+function loadVoices() {
+
+    const voices = speechSynthesis.getVoices();
+
+    console.log("利用可能音声");
+
+    voices.forEach(v => {
+        console.log(v.name + " : " + v.lang);
+    });
+
+    // 英語音声優先
+    englishVoice =
+        voices.find(v =>
+            v.name.includes("Google") &&
+            v.lang.startsWith("en")
+        ) ||
+        voices.find(v =>
+            v.lang === "en-US"
+        ) ||
+        voices.find(v =>
+            v.lang.startsWith("en")
+        );
+
+    // 日本語音声
+    japaneseVoice =
+        voices.find(v =>
+            v.lang === "ja-JP"
+        ) ||
+        voices.find(v =>
+            v.lang.startsWith("ja")
+        );
+
+    console.log("英語音声:", englishVoice?.name);
+    console.log("日本語音声:", japaneseVoice?.name);
+}
+
+// 音声一覧読込
+loadVoices();
+speechSynthesis.onvoiceschanged = loadVoices;
+
+
 function isJapanese(text){
 
     return /[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
@@ -150,14 +206,27 @@ function speakNext(){
     const utterance =
         new SpeechSynthesisUtterance(text);
 
-    if(isJapanese(text)){
-        utterance.lang = "ja-JP";
-    }
-    else{
-        utterance.lang = "en-US";
+if(isJapanese(text)) {
+
+    utterance.lang = "ja-JP";
+
+    if(japaneseVoice){
+        utterance.voice = japaneseVoice;
     }
 
-    utterance.rate = 1.0;
+} else {
+
+    utterance.lang = "en-US";
+
+    if(englishVoice){
+        utterance.voice = englishVoice;
+    }
+
+}
+
+    utterance.rate = 2.0;
+    utterance.pitch = 1.2;
+    utterance.volume = 1.0;
 
     utterance.onend = () => {
 
@@ -171,6 +240,7 @@ function speakNext(){
 
     };
 
+    speechSynthesis.cancel();
     speechSynthesis.speak(utterance);
 }
 
