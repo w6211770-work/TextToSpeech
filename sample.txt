@@ -199,6 +199,8 @@ free
  空きの、無料の
 functionality 
  機能
+frequency
+頻度
 handle 
  処理する
 handling 
@@ -215,6 +217,8 @@ implementation
  実装
 improve 
  改良する、改善する
+Insights
+洞察
 incompatible 
  互換性がない
 increment 
@@ -233,6 +237,8 @@ latency
  待ち時間
 limit 
  制限する、制限
+metrics
+指標
 master 
  元になるもの、優先されるもの、制御する側
 migration 
@@ -295,6 +301,8 @@ properly
  適切に、正常に
 provision 
  供給する
+retrieve
+取得する
 redirect 
  リダイレクトする、転送する
 redundant 
@@ -391,3 +399,63 @@ warn
  警告する
 warning 
  警告
+API
+Application Programming Interface
+CI
+Continuous Integration
+CLI
+Command Line Interface
+CPU
+Central Processing Unit
+CSS
+Cascading Style Sheet
+DNS
+Domain Name System
+DOM
+Document Object Model
+HTML
+HyperText Markup Language
+HTTP
+HyperText Transfer Protocol
+HTTPS
+HyperText Transfer Protocol Secure
+IDE
+Integrated Development Environment
+IE
+Id Internet Explorer
+IO
+Input/Output
+IP
+Internet Protocol
+JSON
+JavaScript Object Notation
+NFC
+Near Field Communication
+OS
+Operating System
+RE
+Regular Expression
+RGB
+Red Green Blue
+SDK
+Software Development Kit
+SQL
+Structured Query Language
+SSH
+Secure SHell
+SSL
+Secure Sockets Layer
+UI
+User Interface
+URI
+Uniform Resource Identifier
+URL
+Uniform Resource Locator
+VM
+Virtual Machine
+WIP
+Work In Progress（作業中）
+WWW
+World Wide Web
+XML
+eXtensible Markup Language
