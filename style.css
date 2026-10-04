@@ -1,0 +1,39 @@
+body{
+    font-family:sans-serif;
+    max-width:800px;
+    margin:20px auto;
+    padding:20px;
+    background-color:#1e1e1e;
+    color:#ffffff;
+}
+
+h1{
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    margin:5px;
+    cursor:pointer;
+    background-color:#333333;
+    color:#ffffff;
+    border:1px solid #555555;
+}
+
+button:hover{
+    background-color:#444444;
+}
+
+#status{
+    margin-top:20px;
+    padding:10px;
+    background:#2d2d2d;
+    border-radius:5px;
+    color:#ffffff;
+}
+
+#currentLine{
+    margin-top:10px;
+    font-size:18px;
+    color:#66b3ff;
+}
