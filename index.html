@@ -246,6 +246,7 @@ ja.onend = () => {
 }
 
 document
+document
 .getElementById("startBtn")
 .addEventListener("click", ()=>{
 
@@ -258,23 +259,14 @@ document
         return;
     }
 
-    const startLine =
-        parseInt(
-            document.getElementById("startLine").value
-        ) || 1;
+    if(currentIndex >= lines.length){
+        currentIndex = 0;
+    }
 
-currentIndex =
-    Math.max(
-        0,
-        Math.min(
-            startLine - 1,
-            lines.length - 1
-        )
-    );
     isReading = true;
 
     statusEl.textContent =
-        `${currentIndex + 1}行目から読み上げ`;
+        `${currentIndex + 1}行目から再開`;
 
     speakPair();
 });
