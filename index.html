@@ -201,7 +201,6 @@ document
 .addEventListener("click", ()=>{
 
     if(lines.length === 0){
-
         alert("テキストファイルを選択してください。");
         return;
     }
@@ -210,10 +209,21 @@ document
         return;
     }
 
+    const startLine =
+        parseInt(
+            document.getElementById("startLine").value
+        ) || 1;
+
+    currentIndex =
+        Math.max(
+            0,
+            Math.min(startLine - 1, lines.length - 1)
+        );
+
     isReading = true;
 
     statusEl.textContent =
-        "読み上げ中";
+        `${currentIndex + 1}行目から読み上げ`;
 
     speakNext();
 });
