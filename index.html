@@ -7,10 +7,20 @@
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
 </head>
-
+<body>
 <h1>英日読み上げアプリ</h1>
 
-<input type="file" id="fileInput" accept=".txt">
+<label>開始行</label>
+<input
+type="number"
+id="startLine"
+min="1"
+value="1">
+
+<input
+    type="file"
+    id="fileInput"
+    accept=".txt,.csv">
 
 <br><br>
 
@@ -21,8 +31,8 @@
 状態: 待機中
 </div>
 
-<div id="currentLine">
-</div>
+<div id="englishText"></div>
+<div id="japaneseText"></div>
 
 <script>
 async function loadDefaultFile(){
@@ -30,18 +40,11 @@ async function loadDefaultFile(){
     try{
 
         const response = await fetch("sample.txt");
-
         const text = await response.text();
-
-        lines = text
-            .split(/\r?\n/)
-            .map(v => v.trim())
-            .filter(v => v !== "");
-
-        currentIndex = 0;
+        loadTxt(text);
 
         statusEl.textContent =
-            `デフォルトファイル読込完了 (${lines.length}行)`;
+           `デフォルト読込完了 (${lines.length}件)`;
 
     }
     catch(error){
@@ -55,11 +58,11 @@ async function loadDefaultFile(){
 }
 
 let lines = [];
+
 let currentIndex = 0;
 let isReading = false;
 
 const statusEl = document.getElementById("status");
-const currentLineEl = document.getElementById("currentLine");
 
 let englishVoice = null;
 let japaneseVoice = null;
@@ -105,17 +108,13 @@ loadVoices();
 speechSynthesis.onvoiceschanged = loadVoices;
 
 
-function isJapanese(text){
 
-    return /[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
-
-}
 
 document
 .getElementById("fileInput")
-.addEventListener("change", async(event)=>{
+.addEventListener("change", async (e)=>{
 
-    const file = event.target.files[0];
+    const file = e.target.files[0];
 
     if(!file){
         return;
@@ -123,77 +122,127 @@ document
 
     const text = await file.text();
 
-    lines = text
-        .split(/\r?\n/)
-        .map(v => v.trim())
-        .filter(v => v !== "");
+    if(file.name.endsWith(".csv")){
+        loadCsv(text);
+    }else{
+        loadTxt(text);
+    }
 
-    currentIndex = 0;
-
+    currentIndex =
+Number(
+localStorage.getItem("currentIndex")
+) || 0;
     statusEl.textContent =
-        `ファイル読込完了 (${lines.length}行)`;
+        `ファイル読込完了 (${lines.length}件)`;
 
 });
 
-function speakNext(){
 
-    if(!isReading){
-        return;
-    }
 
-    if(currentIndex >= lines.length){
 
-        statusEl.textContent =
-            "読み上げ完了";
+function loadTxt(text){
 
-        isReading = false;
-        return;
-    }
+    const rawLines =
+        text.split(/\r?\n/)
+            .filter(v => v.trim());
 
-    const text = lines[currentIndex];
+    lines = [];
 
-    currentLineEl.textContent =
-        `読上げ中: ${text}`;
+    for(let i=0;i<rawLines.length;i+=2){
 
-    const utterance =
-        new SpeechSynthesisUtterance(text);
+        lines.push({
+            english: rawLines[i] || "",
+            japanese: rawLines[i+1] || ""
+        });
 
-if(isJapanese(text)) {
-
-    utterance.lang = "ja-JP";
-
-    if(japaneseVoice){
-        utterance.voice = japaneseVoice;
-    }
-
-} else {
-
-    utterance.lang = "en-US";
-
-    if(englishVoice){
-        utterance.voice = englishVoice;
     }
 
 }
 
-    utterance.rate = 0.9;
-    utterance.pitch = 1.0;
-    utterance.volume = 1.0;
+function loadCsv(text){
 
-    utterance.onend = () => {
+    const rows =
+        text.split(/\r?\n/)
+            .filter(v=>v.trim());
 
-        currentIndex++;
+    lines = [];
 
-        setTimeout(() => {
+    const startIndex =
+        rows[0].includes("English") ||
+        rows[0].includes("英語")
+            ? 1
+            : 0;
 
-            speakNext();
+    for(let i=startIndex;i<rows.length;i++){
 
-        }, 0);
+        const cols = rows[i].split(",");
 
-    };
+        lines.push({
+            english : cols[0]?.trim() || "",
+            japanese : cols[1]?.trim() || ""
+        });
 
-    speechSynthesis.cancel();
-    speechSynthesis.speak(utterance);
+    }
+
+}
+
+function speakPair(){
+
+    if(currentIndex >= lines.length){
+        isReading = false;
+        return;
+    }
+
+    const row = lines[currentIndex];
+
+    const englishText =
+        document.getElementById("englishText");
+
+    const japaneseText =
+        document.getElementById("japaneseText");
+
+    englishText.textContent =
+        row.english;
+
+    japaneseText.textContent =
+        row.japanese;
+
+
+    const en =
+        new SpeechSynthesisUtterance(
+            row.english
+        );
+
+    en.lang = "en-US";
+    en.voice = englishVoice;
+	en.onend = () => {
+ 	   const ja =
+	        new SpeechSynthesisUtterance(
+	            row.japanese
+	        );
+
+	    ja.lang = "ja-JP";
+	    ja.voice = japaneseVoice;
+	
+ja.onend = () => {
+
+    currentIndex++;
+
+    localStorage.setItem(
+        "currentIndex",
+        currentIndex
+    );
+
+    if(isReading){
+        speakPair();
+    }
+};
+	
+	    speechSynthesis.speak(ja);
+	};
+
+    speechSynthesis.speak(en);
+
 }
 
 document
@@ -214,19 +263,24 @@ document
             document.getElementById("startLine").value
         ) || 1;
 
-    currentIndex =
-        Math.max(
-            0,
-            Math.min(startLine - 1, lines.length - 1)
-        );
-
+currentIndex =
+    Math.max(
+        0,
+        Math.min(
+            startLine - 1,
+            lines.length - 1
+        )
+    );
     isReading = true;
 
     statusEl.textContent =
         `${currentIndex + 1}行目から読み上げ`;
 
-    speakNext();
+    speakPair();
 });
+
+document.getElementById("startLine").max =
+lines.length;
 
 document
 .getElementById("stopBtn")
