@@ -40,10 +40,13 @@ async function loadDefaultFile(){
 
         const response = await fetch("sample.csv");
         const text = await response.text();
-        loadTxt(text);
-
-        statusEl.textContent =
-           `デフォルト読込完了 (${lines.length}件)`;
+		loadCsv(text);
+		
+		document.getElementById("startLine").max =
+		    lines.length;
+		
+		statusEl.textContent =
+		   `デフォルト読込完了 (${lines.length}件)`;
 
     }
     catch(error){
@@ -122,13 +125,12 @@ document
     const text = await file.text();
 
 	loadCsv(text);
-    
-    currentIndex =
-Number(
-localStorage.getItem("currentIndex")
-) || 0;
-    statusEl.textContent =
-        `ファイル読込完了 (${lines.length}件)`;
+	
+	document.getElementById("startLine").max =
+	    lines.length;
+	
+	statusEl.textContent =
+	    `ファイル読込完了 (${lines.length}件)`;
 
 });
 
@@ -152,21 +154,26 @@ function loadCsv(text){
 
         const cols = rows[i].split(",");
 
-        lines.push({
-            english : cols[0]?.trim() || "",
-            japanese : cols[1]?.trim() || ""
-        });
+		lines.push({
+		    english : cols[0]?.trim() || "",
+		    japanese : cols.slice(1).join(",").trim()
+		});
 
     }
 
 }
 
 function speakPair(){
-
-    if(currentIndex >= lines.length){
-        isReading = false;
-        return;
-    }
+	
+	if(currentIndex >= lines.length){
+	
+	    isReading = false;
+	
+	    statusEl.textContent =
+	        "読み上げ完了";
+	
+	    return;
+	}
 
     const row = lines[currentIndex];
 
@@ -197,11 +204,6 @@ ja.onend = () => {
 
     currentIndex++;
 
-    localStorage.setItem(
-        "currentIndex",
-        currentIndex
-    );
-
     if(isReading){
         speakPair();
     }
@@ -215,12 +217,11 @@ ja.onend = () => {
 }
 
 document
-document
 .getElementById("startBtn")
 .addEventListener("click", ()=>{
 
     if(lines.length === 0){
-        alert("テキストファイルを選択してください。");
+        alert("CSVファイルを選択してください。");
         return;
     }
 
@@ -228,20 +229,25 @@ document
         return;
     }
 
-    if(currentIndex >= lines.length){
-        currentIndex = 0;
-    }
+    const startLine =
+        Number(
+            document.getElementById("startLine").value
+        );
+
+    currentIndex =
+        Math.max(
+            0,
+            Math.min(startLine - 1, lines.length - 1)
+        );
 
     isReading = true;
 
     statusEl.textContent =
-        `${currentIndex + 1}行目から再開`;
+        `${currentIndex + 1}行目から開始`;
 
     speakPair();
 });
 
-document.getElementById("startLine").max =
-lines.length;
 
 document
 .getElementById("stopBtn")
