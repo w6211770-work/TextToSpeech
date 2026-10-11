@@ -39,7 +39,7 @@ async function loadDefaultFile(){
 
     try{
 
-        const response = await fetch("sample.txt");
+        const response = await fetch("sample.csv");
         const text = await response.text();
         loadTxt(text);
 
