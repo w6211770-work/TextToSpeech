@@ -229,16 +229,30 @@ document
         return;
     }
 
-    const startLine =
-        Number(
-            document.getElementById("startLine").value
-        );
-
-    currentIndex =
-        Math.max(
-            0,
-            Math.min(startLine - 1, lines.length - 1)
-        );
+	if(currentIndex === 0){
+	
+	    const startLine =
+	        Number(
+	            document.getElementById("startLine").value
+	        );
+	
+	    currentIndex =
+	        Math.max(
+	            0,
+	            Math.min(startLine - 1, lines.length - 1)
+	        );
+	}
+	
+	if(currentIndex >= lines.length){
+	
+	    isReading = false;
+	    currentIndex = 0;
+	
+	    statusEl.textContent =
+	        "読み上げ完了";
+	
+	    return;
+	}
 
     isReading = true;
 
