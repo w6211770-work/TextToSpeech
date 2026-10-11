@@ -1,228 +1,228 @@
-abstract , ’ŠÛ“I‚ÈA’ŠÛ‚Ì
-accept , ó‘ø‚·‚éAó‚¯“ü‚ê‚é
-access , —˜—p‚·‚éA“üè‚·‚é
-accessibility , —˜—p‚µ‚â‚·‚³
-accessible , ƒAƒNƒZƒX‰Â”\‚ÈA—˜—p‰Â”\‚È
-action , ‘€ì
-activate , —LŒø‚É‚·‚é
-active , —LŒø‚È
-activity , Šˆ“®
-aggregate , W–ñ‚·‚é
-alias ,•Ê–¼
-allocation , Š„‚è“–‚Ä
-allow , ‰Â”\‚É‚·‚éA‹–‰Â‚·‚é
-annotation , ’ß
-anonymous , –³–¼‚ÌA“½–¼‚Ì
-append , ’Ç‰Á‚·‚é
-applicable , ŠY“–‚·‚éA“K—p‰Â”\‚È
-apply , “K—p‚·‚é
-archive , ‘å‹K–Í‚È‹L˜^‚â‘—¿‚ÌƒRƒŒƒNƒVƒ‡ƒ“
-assert , •\–¾‚·‚é
-asset , ‘Y
-assign , Š„‚è“–‚Ä‚éAi•Ï”‚Éj‘ã“ü‚·‚é
-assignment , Š„‚è“–‚ÄAi•Ï”‚Ö‚Ìj‘ã“ü
-associate , ŠÖ˜A‚Ã‚¯‚é
-attach , Ú‘±‚·‚éA“Y•t‚·‚é
-attribute , ‘®«
-authentication , ”FØ
-author , ì¬Ò
-authorize , Œ ŒÀ‚ğ—^‚¦‚é
-availability , ‰Â—p«
-available , —˜—p‰Â”\‚ÈA“üè‰Â”\‚È
-avoid , ‰ñ”ğ‚·‚é
-batch , Œˆ‚Ü‚Á‚½ˆ—‚ğ‚Ü‚Æ‚ß‚ÄˆêŠ‡‚Å©“®Às‚·‚é‚±‚Æ
-brace , ”g‚©‚Á‚±
-bracket , Šp‚©‚Á‚±
-buffer , ƒf[ƒ^‚ğˆê“I‚É‚½‚ß‚Ä‚¨‚­êŠ
-bump , ƒo[ƒWƒ‡ƒ“‚ğã‚°‚é
-bundle , •¡”‚Ì‚à‚Ì‚ğ‚Ü‚Æ‚ß‚½‚à‚Ì
-capability , ‹@”\
-caret , •¶š“ü—ÍƒJ[ƒ\ƒ‹
-case , ê‡A‘å•¶š¬•¶š‚Ì‹æ•Ê
-cast , Œ^•ÏŠ·‚·‚é
-certificate , Ø–¾‘
-character , •¶š
-checkout , Šm”F‚·‚éA‰ïŒv‚·‚é
-clarify , –¾Šm‚É‚·‚é
-cleanup , ®—
-cluster , •¡”‚Ì‚à‚Ì‚ª‚Ü‚Æ‚Ü‚Á‚Ä1‚Â‚Ì‚æ‚¤‚É“®‚­d‘g‚İ
-collapse , Ü‚è‚½‚½‚ŞA”ñ•\¦‚É‚·‚é
-compare , ”äŠr‚·‚é
-compatibility , ŒİŠ·«
-completion , •âŠ®AŠ®—¹
-confirm , Šm’è‚·‚éAŠm”F‚·‚é
-constraint , §–ñ
-construct , iƒRƒ“ƒXƒgƒ‰ƒNƒ^[‚Åj¶¬‚·‚é
-contain , ŠÜ‚Ş
-container ,ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Æ‚»‚ÌÀs‚É•K—v‚ÈŠÂ‹«‚ğ‚Ğ‚Æ‚Ü‚Æ‚ß‚É‚µA‚Ç‚±‚Å‚à“¯‚¶‚æ‚¤‚É“®‚©‚¹‚é‚æ‚¤‚É‚·‚éŒy—Ê‚È‰¼‘z‰»‹Zp
-content , “à—e
-convert , •ÏŠ·‚·‚é
-coordinate , À•W
-core , Åd—v‚Ì
-correct , ³Šm‚ÈA’ù³‚·‚é
-correctly , ³‚µ‚­A³í‚É
-credential , ‘Šiî•ñA”FØî•ñ
-dashboard , d—v‚Èî•ñ‚ğˆê–Ú‚Å”cˆ¬‚Å‚«‚é‚æ‚¤‚É‚Ü‚Æ‚ß‚Ä•\¦‚·‚é‰æ–Ê
-declaration , éŒ¾
-declare , éŒ¾‚·‚é
-decode , ƒGƒ“ƒR[ƒh‚³‚ê‚½ƒf[ƒ^‚ğŒ³‚ÌŒ`‚É–ß‚·
-dedicated , ê—p‚Ì
-dependency , ˆË‘¶ŠÖŒW
-deprecated , ”ñ„§‚Ì
-deprecation , ”ñ„§
-describe , à–¾‚·‚é
-description , à–¾
-descriptor , ‹Lqq
-determine , ”»•Ê‚·‚éAŒˆ’è‚·‚é
-distribute , •ªU‚·‚éA”z•z‚·‚é
-duplicate , d•¡‚·‚éA•¡»‚·‚é
-duration , ŠúŠÔ
-emit , ”­‚·‚éA¶¬‚·‚é
-encryption , ˆÃ†‰»
-endpoint , ’[“_Aƒf[ƒ^‚Ì‘—óM‚ªs‚í‚ê‚éêŠ‚â‘ÎÛ
-ensure , ŠmÀ‚É‚·‚éAŠm‚©‚ß‚é
-entity , À‘Ì
-environment , ŠÂ‹«
-except , ?‚ğœ‚­
-exception , —áŠO
-exclude , œŠO‚·‚é
-existing , Šù‘¶‚Ì
-extend , Šg’£‚·‚é
-extension , Šg’£AŠg’£q
-external , ŠO•”‚Ì
-extra , —]•ª‚ÈA’Ç‰Á‚Ì
-extract , ’Šo‚·‚é
-fallback , —\”õè’i
-feature , ‹@”\A“Á’¥
-fire , n“®‚·‚éA”­‰Î‚·‚é
-force , ‹­§‚·‚é
-functionality ,‹@”\
-frequency,•p“x
-handle , ˆ—‚·‚é
-handling , ˆ—
-health , ³í«
-identifier , ¯•Êq
-ignore , –³‹‚·‚é
-implement , À‘•‚·‚é
-implementation , À‘•
-improve , ‰ü—Ç‚·‚éA‰ü‘P‚·‚é
-Insights,“´@
-incompatible , ŒİŠ·«‚ª‚È‚¢
-increment , ‘•ªA‘•ª‚³‚¹‚é
-indicate , ¦‚·
-inline , ‚»‚Ìê‚É’¼Ú–„‚ß‚Ş
-instruction , w¦
-invalid , –³Œø‚È
-iterate , iˆ—‚ğj”½•œ‚·‚éAŒJ‚è•Ô‚·
-latency , ‘Ò‚¿ŠÔ
-limit , §ŒÀ‚·‚éA§ŒÀ
-metrics,w•W
-master , Œ³‚É‚È‚é‚à‚ÌA—Dæ‚³‚ê‚é‚à‚ÌA§Œä‚·‚é‘¤
-migration , ˆÚs
-modification , C³A•ÏX
-modifier , Cüq
-modify , C³‚·‚éA•ÏX‚·‚é
-monitor , ŠÄ‹‚·‚é
-obtain , æ“¾‚·‚é
-occur , ”­¶‚·‚é
-occurrence , oŒ»A”­¶
-optimize , Å“K‰»‚·‚é
-otherwise , ‚»‚¤‚Å‚È‚¯‚ê‚ÎA‚³‚à‚È‚¢‚Æ
-override , —Dæ‚·‚é
-overview , ŠT—v
-padding , “à‘¤‚Ì—]”’
-pane , •\¦—Ìˆæ
-parenthesis , ŠÛ‚©‚Á‚±
-payload , ÀÛ‚É‘—‚è‚½‚¢’†g
-permission , ‹–‰Â
-permit , ‹–‰Â‚·‚é
-persistence , ‰i‘±‰»
-placeholder , –{—ˆ“ü‚é‚×‚«’lEƒf[ƒ^E—v‘f‚Ì‰¼’u‚«‚Æ‚µ‚Äg‚í‚ê‚é‹L†‚â•¶š—ñ
-plugin , Šù‘¶‚Ìƒ\ƒtƒgƒEƒFƒA‚ÉŒã‚©‚ç‹@”\‚ğ’Ç‰Á‚Å‚«‚é¬‚³‚ÈŠg’£ƒvƒƒOƒ‰ƒ€
-populate , ©“®“ü—Í‚·‚é
-preference , ƒ†[ƒU[İ’è
-preferred , —Dæ‚Ì
-prefix , Ú“ª«
-prepare , €”õ‚·‚é
-priority , —Dæ‡ˆÊA—Dæ“x
-product , »•i
-properly , “KØ‚ÉA³í‚É
-provision , ‹Ÿ‹‹‚·‚é
-retrieve,æ“¾‚·‚é
-redirect , ƒŠƒ_ƒCƒŒƒNƒg‚·‚éA“]‘—‚·‚é
-redundant , ç’·‚È
-register , “o˜^‚·‚é
-registry , “o˜^
-removal , íœAœ‹
-render , •`‰æ‚·‚é
-represent , •\‚·
-representation , •\Œ»
-require , •K—v‚Æ‚·‚é
-reserve , —\–ñ‚·‚éAŠm•Û‚·‚é
-resolve , ‰ğŒˆ‚·‚é
-restart , Ä‹N“®‚·‚é
-restore , •œŒ³‚·‚é
-restriction , §ŒÀ
-retrieve ,æ“¾‚·‚é
-revert , iˆÈ‘O‚Ìó‘Ô‚Éj–ß‚éA–ß‚·
-revision , ‰ü’ù
-role , –ğŠ„
-scan , ‘–¸‚·‚é
-schema ,\‘¢’è‹`AİŒv}
-search , ŒŸõ‚·‚éAŒŸõ
-sequence , ‡˜
-session , ƒRƒ“ƒsƒ…[ƒ^“¯m‚âƒ†[ƒU[‚ÆƒVƒXƒeƒ€‚ÌŠÔ‚Ås‚í‚ê‚éˆê˜A‚ÌŒp‘±‚µ‚½‚â‚èæ‚è
-signature , –¼
-specification , d—l
-specify , w’è‚·‚é
-stream , ƒf[ƒ^‚ª˜A‘±“I‚É—¬‚ê‘±‚¯‚éó‘Ô‚âA‚»‚Ì—¬‚ê‚ğˆµ‚¤d‘g‚İ
-suffix , Ú”ö«
-suppress , •\¦‚µ‚È‚¢
-syntax , \•¶
-terms , —˜—pğŒ
-toggle , Ø‚è‘Ö‚¦‚é
-token , ”FØî•ñAÅ¬’PˆÊ
-transfer , “]‘—‚·‚é
-tweak , ”÷’²®‚·‚é
-unauthorized , Œ ŒÀ‚Ì‚È‚¢
-unavailable , —˜—p‚Å‚«‚È‚¢
-unnecessary , •s—v‚È
-unresolved , –¢‰ğŒˆ‚Ì
-usage , —˜—pAg—p
-useful , •Ö—˜‚È
-valid ,—LŒø‚È
-verbose , Ú×‚È
-verify , i³‚µ‚¢‚±‚Æ‚ğjŠm”F‚·‚éAŒŸØ‚·‚é
-visibility , ‰Â‹«A‰Â‹”ÍˆÍ
-warn , Œx‚·‚é
-warning , Œx
-API,ƒAƒvƒŠƒP[ƒVƒ‡ƒ“EƒvƒƒOƒ‰ƒ~ƒ“ƒOEƒCƒ“ƒ^[ƒtƒF[ƒX
-CI,Œp‘±“IƒCƒ“ƒeƒOƒŒ[ƒVƒ‡ƒ“
-CLI,ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“EƒCƒ“ƒ^[ƒtƒF[ƒX
-CPU,’†‰›ˆ—‘•’u
-CSS,ƒJƒXƒP[ƒfƒBƒ“ƒOEƒXƒ^ƒCƒ‹EƒV[ƒg
-DNS,ƒhƒƒCƒ“ƒl[ƒ€ƒVƒXƒeƒ€
-DOM,ƒhƒLƒ…ƒƒ“ƒgƒIƒuƒWƒFƒNƒgƒ‚ƒfƒ‹
-HTML,ƒnƒCƒp[ƒeƒLƒXƒgEƒ}[ƒNƒAƒbƒvEŒ¾Œê
-HTTP,ƒnƒCƒp[ƒeƒLƒXƒg“]‘—ƒvƒƒgƒRƒ‹
-HTTPS,ƒnƒCƒp[ƒeƒLƒXƒg“]‘—ƒvƒƒgƒRƒ‹ƒZƒLƒ…ƒA
-IDE,“‡ŠJ”­ŠÂ‹«
-IE,ƒCƒ“ƒ^[ƒlƒbƒgƒGƒNƒXƒvƒ[ƒ‰[
-IO,ƒCƒ“ƒvƒbƒgEƒAƒEƒgƒvƒbƒg
-IP,ƒCƒ“ƒ^[ƒlƒbƒgƒvƒƒgƒRƒ‹
-JSON,JavaScriptƒIƒuƒWƒFƒNƒg•\‹L–@
-NFC,‹ß‹——£–³ü’ÊM
-OS,ƒIƒyƒŒ[ƒeƒBƒ“ƒO?ƒVƒXƒeƒ€
-RE,³‹K•\Œ»
-RGB,ƒŒƒbƒhEƒOƒŠ[ƒ“Eƒuƒ‹[
-SDK,ƒ\ƒtƒgƒEƒFƒAŠJ”­ƒLƒbƒg
-SQL,\‘¢‰»–â‚¢‡‚í‚¹Œ¾Œê
-SSH,ƒZƒLƒ…ƒAƒVƒFƒ‹
-SSL,ƒZƒLƒ…ƒAEƒ\ƒPƒbƒgEƒŒƒCƒ„[
-UI,ƒ†[ƒU[ƒCƒ“ƒ^[ƒtƒF[ƒX
-URI,“ˆêƒŠƒ\[ƒX¯•Êq
-URL,ƒ†ƒjƒtƒH[ƒ€EƒŠƒ\[ƒXEƒƒP[ƒ^[
-VM,‰¼‘zƒ}ƒVƒ“
-WIP,ƒ[ƒNƒCƒ“ƒvƒƒOƒŒƒXiì‹Æ’†j
-WWW,ƒ[ƒ‹ƒhƒƒCƒhƒEƒFƒu
-XML,Šg’£‰Â”\ƒ}[ƒNƒAƒbƒvŒ¾Œê
+abstract , æŠ½è±¡çš„ãªã€æŠ½è±¡ã®
+accept , å—è«¾ã™ã‚‹ã€å—ã‘å…¥ã‚Œã‚‹
+access , åˆ©ç”¨ã™ã‚‹ã€å…¥æ‰‹ã™ã‚‹
+accessibility , åˆ©ç”¨ã—ã‚„ã™ã•
+accessible , ã‚¢ã‚¯ã‚»ã‚¹å¯èƒ½ãªã€åˆ©ç”¨å¯èƒ½ãª
+action , æ“ä½œ
+activate , æœ‰åŠ¹ã«ã™ã‚‹
+active , æœ‰åŠ¹ãª
+activity , æ´»å‹•
+aggregate , é›†ç´„ã™ã‚‹
+alias ,åˆ¥å
+allocation , å‰²ã‚Šå½“ã¦
+allow , å¯èƒ½ã«ã™ã‚‹ã€è¨±å¯ã™ã‚‹
+annotation , æ³¨é‡ˆ
+anonymous , ç„¡åã®ã€åŒ¿åã®
+append , è¿½åŠ ã™ã‚‹
+applicable , è©²å½“ã™ã‚‹ã€é©ç”¨å¯èƒ½ãª
+apply , é©ç”¨ã™ã‚‹
+archive , å¤§è¦æ¨¡ãªè¨˜éŒ²ã‚„è³‡æ–™ã®ã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³
+assert , è¡¨æ˜ã™ã‚‹
+asset , è³‡ç”£
+assign , å‰²ã‚Šå½“ã¦ã‚‹ã€ï¼ˆå¤‰æ•°ã«ï¼‰ä»£å…¥ã™ã‚‹
+assignment , å‰²ã‚Šå½“ã¦ã€ï¼ˆå¤‰æ•°ã¸ã®ï¼‰ä»£å…¥
+associate , é–¢é€£ã¥ã‘ã‚‹
+attach , æ¥ç¶šã™ã‚‹ã€æ·»ä»˜ã™ã‚‹
+attribute , å±æ€§
+authentication , èªè¨¼
+author , ä½œæˆè€…
+authorize , æ¨©é™ã‚’ä¸ãˆã‚‹
+availability , å¯ç”¨æ€§
+available , åˆ©ç”¨å¯èƒ½ãªã€å…¥æ‰‹å¯èƒ½ãª
+avoid , å›é¿ã™ã‚‹
+batch , æ±ºã¾ã£ãŸå‡¦ç†ã‚’ã¾ã¨ã‚ã¦ä¸€æ‹¬ã§è‡ªå‹•å®Ÿè¡Œã™ã‚‹ã“ã¨
+brace , æ³¢ã‹ã£ã“
+bracket , è§’ã‹ã£ã“
+buffer , ãƒ‡ãƒ¼ã‚¿ã‚’ä¸€æ™‚çš„ã«ãŸã‚ã¦ãŠãå ´æ‰€
+bump , ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’ä¸Šã’ã‚‹
+bundle , è¤‡æ•°ã®ã‚‚ã®ã‚’ã¾ã¨ã‚ãŸã‚‚ã®
+capability , æ©Ÿèƒ½
+caret , æ–‡å­—å…¥åŠ›ã‚«ãƒ¼ã‚½ãƒ«
+case , å ´åˆã€å¤§æ–‡å­—å°æ–‡å­—ã®åŒºåˆ¥
+cast , å‹å¤‰æ›ã™ã‚‹
+certificate , è¨¼æ˜æ›¸
+character , æ–‡å­—
+checkout , ç¢ºèªã™ã‚‹ã€ä¼šè¨ˆã™ã‚‹
+clarify , æ˜ç¢ºã«ã™ã‚‹
+cleanup , æ•´ç†
+cluster , è¤‡æ•°ã®ã‚‚ã®ãŒã¾ã¨ã¾ã£ã¦1ã¤ã®ã‚ˆã†ã«å‹•ãä»•çµ„ã¿
+collapse , æŠ˜ã‚ŠãŸãŸã‚€ã€éè¡¨ç¤ºã«ã™ã‚‹
+compare , æ¯”è¼ƒã™ã‚‹
+compatibility , äº’æ›æ€§
+completion , è£œå®Œã€å®Œäº†
+confirm , ç¢ºå®šã™ã‚‹ã€ç¢ºèªã™ã‚‹
+constraint , åˆ¶ç´„
+construct , ï¼ˆã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ãƒ¼ã§ï¼‰ç”Ÿæˆã™ã‚‹
+contain , å«ã‚€
+container ,ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã¨ãã®å®Ÿè¡Œã«å¿…è¦ãªç’°å¢ƒã‚’ã²ã¨ã¾ã¨ã‚ã«ã—ã€ã©ã“ã§ã‚‚åŒã˜ã‚ˆã†ã«å‹•ã‹ã›ã‚‹ã‚ˆã†ã«ã™ã‚‹è»½é‡ãªä»®æƒ³åŒ–æŠ€è¡“
+content , å†…å®¹
+convert , å¤‰æ›ã™ã‚‹
+coordinate , åº§æ¨™
+core , æœ€é‡è¦ã®
+correct , æ­£ç¢ºãªã€è¨‚æ­£ã™ã‚‹
+correctly , æ­£ã—ãã€æ­£å¸¸ã«
+credential , è³‡æ ¼æƒ…å ±ã€èªè¨¼æƒ…å ±
+dashboard , é‡è¦ãªæƒ…å ±ã‚’ä¸€ç›®ã§æŠŠæ¡ã§ãã‚‹ã‚ˆã†ã«ã¾ã¨ã‚ã¦è¡¨ç¤ºã™ã‚‹ç”»é¢
+declaration , å®£è¨€
+declare , å®£è¨€ã™ã‚‹
+decode , ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã‚’å…ƒã®å½¢ã«æˆ»ã™
+dedicated , å°‚ç”¨ã®
+dependency , ä¾å­˜é–¢ä¿‚
+deprecated , éæ¨å¥¨ã®
+deprecation , éæ¨å¥¨
+describe , èª¬æ˜ã™ã‚‹
+description , èª¬æ˜
+descriptor , è¨˜è¿°å­
+determine , åˆ¤åˆ¥ã™ã‚‹ã€æ±ºå®šã™ã‚‹
+distribute , åˆ†æ•£ã™ã‚‹ã€é…å¸ƒã™ã‚‹
+duplicate , é‡è¤‡ã™ã‚‹ã€è¤‡è£½ã™ã‚‹
+duration , æœŸé–“
+emit , ç™ºã™ã‚‹ã€ç”Ÿæˆã™ã‚‹
+encryption , æš—å·åŒ–
+endpoint , ç«¯ç‚¹ã€ãƒ‡ãƒ¼ã‚¿ã®é€å—ä¿¡ãŒè¡Œã‚ã‚Œã‚‹å ´æ‰€ã‚„å¯¾è±¡
+ensure , ç¢ºå®Ÿã«ã™ã‚‹ã€ç¢ºã‹ã‚ã‚‹
+entity , å®Ÿä½“
+environment , ç’°å¢ƒ
+except , ?ã‚’é™¤ã
+exception , ä¾‹å¤–
+exclude , é™¤å¤–ã™ã‚‹
+existing , æ—¢å­˜ã®
+extend , æ‹¡å¼µã™ã‚‹
+extension , æ‹¡å¼µã€æ‹¡å¼µå­
+external , å¤–éƒ¨ã®
+extra , ä½™åˆ†ãªã€è¿½åŠ ã®
+extract , æŠ½å‡ºã™ã‚‹
+fallback , äºˆå‚™æ‰‹æ®µ
+feature , æ©Ÿèƒ½ã€ç‰¹å¾´
+fire , å§‹å‹•ã™ã‚‹ã€ç™ºç«ã™ã‚‹
+force , å¼·åˆ¶ã™ã‚‹
+functionality ,æ©Ÿèƒ½
+frequency,é »åº¦
+handle , å‡¦ç†ã™ã‚‹
+handling , å‡¦ç†
+health , æ­£å¸¸æ€§
+identifier , è­˜åˆ¥å­
+ignore , ç„¡è¦–ã™ã‚‹
+implement , å®Ÿè£…ã™ã‚‹
+implementation , å®Ÿè£…
+improve , æ”¹è‰¯ã™ã‚‹ã€æ”¹å–„ã™ã‚‹
+Insights,æ´å¯Ÿ
+incompatible , äº’æ›æ€§ãŒãªã„
+increment , å¢—åˆ†ã€å¢—åˆ†ã•ã›ã‚‹
+indicate , ç¤ºã™
+inline , ãã®å ´ã«ç›´æ¥åŸ‹ã‚è¾¼ã‚€
+instruction , æŒ‡ç¤º
+invalid , ç„¡åŠ¹ãª
+iterate , ï¼ˆå‡¦ç†ã‚’ï¼‰åå¾©ã™ã‚‹ã€ç¹°ã‚Šè¿”ã™
+latency , å¾…ã¡æ™‚é–“
+limit , åˆ¶é™ã™ã‚‹ã€åˆ¶é™
+metrics,æŒ‡æ¨™
+master , å…ƒã«ãªã‚‹ã‚‚ã®ã€å„ªå…ˆã•ã‚Œã‚‹ã‚‚ã®ã€åˆ¶å¾¡ã™ã‚‹å´
+migration , ç§»è¡Œ
+modification , ä¿®æ­£ã€å¤‰æ›´
+modifier , ä¿®é£¾å­
+modify , ä¿®æ­£ã™ã‚‹ã€å¤‰æ›´ã™ã‚‹
+monitor , ç›£è¦–ã™ã‚‹
+obtain , å–å¾—ã™ã‚‹
+occur , ç™ºç”Ÿã™ã‚‹
+occurrence , å‡ºç¾ã€ç™ºç”Ÿ
+optimize , æœ€é©åŒ–ã™ã‚‹
+otherwise , ãã†ã§ãªã‘ã‚Œã°ã€ã•ã‚‚ãªã„ã¨
+override , å„ªå…ˆã™ã‚‹
+overview , æ¦‚è¦
+padding , å†…å´ã®ä½™ç™½
+pane , è¡¨ç¤ºé ˜åŸŸ
+parenthesis , ä¸¸ã‹ã£ã“
+payload , å®Ÿéš›ã«é€ã‚ŠãŸã„ä¸­èº«
+permission , è¨±å¯
+permit , è¨±å¯ã™ã‚‹
+persistence , æ°¸ç¶šåŒ–
+placeholder , æœ¬æ¥å…¥ã‚‹ã¹ãå€¤ãƒ»ãƒ‡ãƒ¼ã‚¿ãƒ»è¦ç´ ã®ä»®ç½®ãã¨ã—ã¦ä½¿ã‚ã‚Œã‚‹è¨˜å·ã‚„æ–‡å­—åˆ—
+plugin , æ—¢å­˜ã®ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã«å¾Œã‹ã‚‰æ©Ÿèƒ½ã‚’è¿½åŠ ã§ãã‚‹å°ã•ãªæ‹¡å¼µãƒ—ãƒ­ã‚°ãƒ©ãƒ 
+populate , è‡ªå‹•å…¥åŠ›ã™ã‚‹
+preference , ãƒ¦ãƒ¼ã‚¶ãƒ¼è¨­å®š
+preferred , å„ªå…ˆã®
+prefix , æ¥é ­è¾
+prepare , æº–å‚™ã™ã‚‹
+priority , å„ªå…ˆé †ä½ã€å„ªå…ˆåº¦
+product , è£½å“
+properly , é©åˆ‡ã«ã€æ­£å¸¸ã«
+provision , ä¾›çµ¦ã™ã‚‹
+retrieve,å–å¾—ã™ã‚‹
+redirect , ãƒªãƒ€ã‚¤ãƒ¬ã‚¯ãƒˆã™ã‚‹ã€è»¢é€ã™ã‚‹
+redundant , å†—é•·ãª
+register , ç™»éŒ²ã™ã‚‹
+registry , ç™»éŒ²
+removal , å‰Šé™¤ã€é™¤å»
+render , æç”»ã™ã‚‹
+represent , è¡¨ã™
+representation , è¡¨ç¾
+require , å¿…è¦ã¨ã™ã‚‹
+reserve , äºˆç´„ã™ã‚‹ã€ç¢ºä¿ã™ã‚‹
+resolve , è§£æ±ºã™ã‚‹
+restart , å†èµ·å‹•ã™ã‚‹
+restore , å¾©å…ƒã™ã‚‹
+restriction , åˆ¶é™
+retrieve ,å–å¾—ã™ã‚‹
+revert , ï¼ˆä»¥å‰ã®çŠ¶æ…‹ã«ï¼‰æˆ»ã‚‹ã€æˆ»ã™
+revision , æ”¹è¨‚
+role , å½¹å‰²
+scan , èµ°æŸ»ã™ã‚‹
+schema ,æ§‹é€ å®šç¾©ã€è¨­è¨ˆå›³
+search , æ¤œç´¢ã™ã‚‹ã€æ¤œç´¢
+sequence , é †åº
+session , ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿åŒå£«ã‚„ãƒ¦ãƒ¼ã‚¶ãƒ¼ã¨ã‚·ã‚¹ãƒ†ãƒ ã®é–“ã§è¡Œã‚ã‚Œã‚‹ä¸€é€£ã®ç¶™ç¶šã—ãŸã‚„ã‚Šå–ã‚Š
+signature , ç½²å
+specification , ä»•æ§˜
+specify , æŒ‡å®šã™ã‚‹
+stream , ãƒ‡ãƒ¼ã‚¿ãŒé€£ç¶šçš„ã«æµã‚Œç¶šã‘ã‚‹çŠ¶æ…‹ã‚„ã€ãã®æµã‚Œã‚’æ‰±ã†ä»•çµ„ã¿
+suffix , æ¥å°¾è¾
+suppress , è¡¨ç¤ºã—ãªã„
+syntax , æ§‹æ–‡
+terms , åˆ©ç”¨æ¡ä»¶
+toggle , åˆ‡ã‚Šæ›¿ãˆã‚‹
+token , èªè¨¼æƒ…å ±ã€æœ€å°å˜ä½
+transfer , è»¢é€ã™ã‚‹
+tweak , å¾®èª¿æ•´ã™ã‚‹
+unauthorized , æ¨©é™ã®ãªã„
+unavailable , åˆ©ç”¨ã§ããªã„
+unnecessary , ä¸è¦ãª
+unresolved , æœªè§£æ±ºã®
+usage , åˆ©ç”¨ã€ä½¿ç”¨
+useful , ä¾¿åˆ©ãª
+valid ,æœ‰åŠ¹ãª
+verbose , è©³ç´°ãª
+verify , ï¼ˆæ­£ã—ã„ã“ã¨ã‚’ï¼‰ç¢ºèªã™ã‚‹ã€æ¤œè¨¼ã™ã‚‹
+visibility , å¯è¦–æ€§ã€å¯è¦–ç¯„å›²
+warn , è­¦å‘Šã™ã‚‹
+warning , è­¦å‘Š
+API,ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãƒ»ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ãƒ»ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹
+CI,ç¶™ç¶šçš„ã‚¤ãƒ³ãƒ†ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³
+CLI,ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ãƒ»ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹
+CPU,ä¸­å¤®å‡¦ç†è£…ç½®
+CSS,ã‚«ã‚¹ã‚±ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ãƒ»ã‚¹ã‚¿ã‚¤ãƒ«ãƒ»ã‚·ãƒ¼ãƒˆ
+DNS,ãƒ‰ãƒ¡ã‚¤ãƒ³ãƒãƒ¼ãƒ ã‚·ã‚¹ãƒ†ãƒ 
+DOM,ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãƒ¢ãƒ‡ãƒ«
+HTML,ãƒã‚¤ãƒ‘ãƒ¼ãƒ†ã‚­ã‚¹ãƒˆãƒ»ãƒãƒ¼ã‚¯ã‚¢ãƒƒãƒ—ãƒ»è¨€èª
+HTTP,ãƒã‚¤ãƒ‘ãƒ¼ãƒ†ã‚­ã‚¹ãƒˆè»¢é€ãƒ—ãƒ­ãƒˆã‚³ãƒ«
+HTTPS,ãƒã‚¤ãƒ‘ãƒ¼ãƒ†ã‚­ã‚¹ãƒˆè»¢é€ãƒ—ãƒ­ãƒˆã‚³ãƒ«ã‚»ã‚­ãƒ¥ã‚¢
+IDE,çµ±åˆé–‹ç™ºç’°å¢ƒ
+IE,ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã‚¨ã‚¯ã‚¹ãƒ—ãƒ­ãƒ¼ãƒ©ãƒ¼
+IO,ã‚¤ãƒ³ãƒ—ãƒƒãƒˆãƒ»ã‚¢ã‚¦ãƒˆãƒ—ãƒƒãƒˆ
+IP,ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆãƒ—ãƒ­ãƒˆã‚³ãƒ«
+JSON,JavaScriptã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆè¡¨è¨˜æ³•
+NFC,è¿‘è·é›¢ç„¡ç·šé€šä¿¡
+OS,ã‚ªãƒšãƒ¬ãƒ¼ãƒ†ã‚£ãƒ³ã‚°?ã‚·ã‚¹ãƒ†ãƒ 
+RE,æ­£è¦è¡¨ç¾
+RGB,ãƒ¬ãƒƒãƒ‰ãƒ»ã‚°ãƒªãƒ¼ãƒ³ãƒ»ãƒ–ãƒ«ãƒ¼
+SDK,ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢é–‹ç™ºã‚­ãƒƒãƒˆ
+SQL,æ§‹é€ åŒ–å•ã„åˆã‚ã›è¨€èª
+SSH,ã‚»ã‚­ãƒ¥ã‚¢ã‚·ã‚§ãƒ«
+SSL,ã‚»ã‚­ãƒ¥ã‚¢ãƒ»ã‚½ã‚±ãƒƒãƒˆãƒ»ãƒ¬ã‚¤ãƒ¤ãƒ¼
+UI,ãƒ¦ãƒ¼ã‚¶ãƒ¼ã‚¤ãƒ³ã‚¿ãƒ¼ãƒ•ã‚§ãƒ¼ã‚¹
+URI,çµ±ä¸€ãƒªã‚½ãƒ¼ã‚¹è­˜åˆ¥å­
+URL,ãƒ¦ãƒ‹ãƒ•ã‚©ãƒ¼ãƒ ãƒ»ãƒªã‚½ãƒ¼ã‚¹ãƒ»ãƒ­ã‚±ãƒ¼ã‚¿ãƒ¼
+VM,ä»®æƒ³ãƒã‚·ãƒ³
+WIP,ãƒ¯ãƒ¼ã‚¯ã‚¤ãƒ³ãƒ—ãƒ­ã‚°ãƒ¬ã‚¹ï¼ˆä½œæ¥­ä¸­ï¼‰
+WWW,ãƒ¯ãƒ¼ãƒ«ãƒ‰ãƒ¯ã‚¤ãƒ‰ã‚¦ã‚§ãƒ–
+XML,æ‹¡å¼µå¯èƒ½ãƒãƒ¼ã‚¯ã‚¢ãƒƒãƒ—è¨€èª
