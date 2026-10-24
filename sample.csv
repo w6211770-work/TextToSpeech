@@ -3,9 +3,6 @@ accept , 受諾する、受け入れる
 aggregate , 集約する
 allocation , 割り当て
 applicable , 該当する、適用可能な
-apply , 適用する
-assign , 割り当てる、（変数に）代入する
-assignment , 割り当て、（変数への）代入
 associate , 関連づける
 authentication , 認証
 brace , 波かっこ
@@ -16,7 +13,6 @@ collapse , 折りたたむ、非表示にする
 completion , 補完、完了
 confirm , 確定する、確認する
 constraint , 制約
-construct , （コンストラクターで）生成する
 coordinate , 座標
 credential , 資格情報、認証情報
 dedicated , 専用の
@@ -26,7 +22,7 @@ deprecation , 非推奨
 determine , 判別する、決定する
 distribute , 分散する、配布する
 emit , 発する、生成する
-except , ?を除く
+except , を除く
 exception , 例外
 exclude , 除外する
 existing , 既存の
@@ -49,8 +45,6 @@ metrics,指標
 obtain , 取得する
 parenthesis , 丸かっこ
 payload , 実際に送りたい中身
-permission , 許可
-permit , 許可する
 persistence , 永続化
 populate , 自動入力する
 preference , ユーザー設定
@@ -64,7 +58,6 @@ retrieve,取得する
 redirect , リダイレクトする、転送する
 redundant , 冗長な
 removal , 削除、除去
-render , 描画する
 represent , 表す
 representation , 表現
 require , 必要とする
@@ -97,3 +90,27 @@ SSL,セキュア・ソケット・レイヤー
 URI,統一リソース識別子
 URL,ユニフォーム・リソース・ロケーター
 VM,仮想マシン
+DLL load failed , DLL読み込み失敗
+package not found , パッケージが見つかりません
+interpreter not configured , インタープリタ設定異常
+invalid Python interpreter , Python環境が壊れています
+KeyError , 辞書キーが存在しません
+ValueError , 値が不正です
+could not convert string to float , 数値に変換できません
+invalid literal for int() , 整数へ変換できません
+ZeroDivisionError , 0で割ろうとしました
+OverflowError , 数値が大きすぎます
+MemoryError , メモリ不足です
+RecursionError , 再帰呼び出しが深すぎます
+AssertionError , アサーション失敗
+StopIteration , イテレータ終了
+Process finished with exit code 0 , 正常終了
+Process finished with exit code 1 , エラー終了
+Cannot run program , プログラム起動失敗
+SDK is not defined , Python環境未設定
+Invalid SDK , Python環境異常
+Python interpreter is not selected , Pythonが未選択
+Unresolved reference , シンボルを見つけられません
+Cannot find declaration to go to , 定義へジャンプできません
+Package requirements are not satisfied , 必要ライブラリ不足
+Failed to create virtual environment , 仮想環境作成失敗
