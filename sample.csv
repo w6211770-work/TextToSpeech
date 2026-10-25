@@ -93,7 +93,7 @@ VM,仮想マシン
 DLL load failed , DLL読み込み失敗
 package not found , パッケージが見つかりません
 interpreter not configured , インタープリタ設定異常
-invalid Python interpreter , Python環境が壊れています
+invalid Python interpreter , パイソン環境が壊れています
 KeyError , 辞書キーが存在しません
 ValueError , 値が不正です
 could not convert string to float , 数値に変換できません
@@ -107,9 +107,9 @@ StopIteration , イテレータ終了
 Process finished with exit code 0 , 正常終了
 Process finished with exit code 1 , エラー終了
 Cannot run program , プログラム起動失敗
-SDK is not defined , Python環境未設定
-Invalid SDK , Python環境異常
-Python interpreter is not selected , Pythonが未選択
+SDK is not defined , パイソン環境未設定
+Invalid SDK , パイソン環境異常
+Python interpreter is not selected , パイソンが未選択
 Unresolved reference , シンボルを見つけられません
 Cannot find declaration to go to , 定義へジャンプできません
 Package requirements are not satisfied , 必要ライブラリ不足
